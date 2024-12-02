@@ -1,0 +1,108 @@
+﻿@using Application.Catalogs.CatalogItems.GetCatalogItemPLP
+@using Application.Catalogs.CatalogTypes;
+@using Application.Dtos;
+
+@model PaginatedItemsDto<CatalogPLPDto>
+@{
+    ViewData["Title"] = "لیست محصولات";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    int totalAvailableStock = Model.Data.Count();
+    // Assuming Model.Data is a collection of some objects that have a CatalogTypeID property
+    int itemCat2 = Model.Data.Where(p => p.CatalogTypeID == 2).Count();
+    int itemCat3 = Model.Data.Where(p => p.CatalogTypeID == 3).Count();
+    int itemCat4 = Model.Data.Where(p => p.CatalogTypeID == 4).Count();
+    int itemCat5 = Model.Data.Where(p => p.CatalogTypeID == 5).Count();
+    int itemCat6 = Model.Data.Where(p => p.CatalogTypeID == 6).Count();
+
+
+}
+@{
+    var catalogTypeId = Context.Request.Query["CatalogTypeID"].ToString();
+    int.TryParse(catalogTypeId, out int catalogId); // Convert to int safely
+
+    var filteredItems = Model.Data.Where(p => p.CatalogTypeID == catalogId);
+}
+
+
+
+
+<link href="~/theme/assets/plugin/bootstrap-slider/bootstrap-slider.min.css" rel="stylesheet" />
+
+
+<!--============ start bread crumb ==============-->
+
+<section class="bread-crumb">
+    <div class="container-fluid">
+        <nav aria-label="breadcrumb" class="my-lg-0 my-2">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="font-14 text-muted-two" href="/">صفحه اصلی</a> </li>
+
+                <li class="breadcrumb-item"><a class="font-14 text-muted-two" href="/category/product">محصولات</a></li>
+                <li class="breadcrumb-item"><a class="font-14 text-muted-two" href="/category/product/FilteredItems">دسته بندی</a></li>
+                     <li aria-current="page" class="breadcrumb-item active main-color-one-color font-14 fw-bold">
+
+                </li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<main> 
+<div class="row g-4">
+    @foreach (var item in filteredItems)
+    {
+            <div class="col-lg-4 col-sm-6">
+
+                <div class="product-box-item border-ui bg-white w-100">
+
+                    <div class="hover">
+                        <div class="hover-btn">
+                            <a href="/MyFavourite/AddToMyFavourite?=@item.Id" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="افزودن به علاقه مندی"><i class="bi bi-heart"></i></a>
+                            <a href="/Product/Details?Slug=@item.Slug" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="نمایش سریع"><i class="bi bi-eye"></i></a>
+                        </div>
+
+                    </div>
+                    <a href="/Product/Details?Slug=@item.Slug">
+                        <div class="image text-center">
+                            <img src="@item.Image" alt="" class="img-fluid">
+                        </div>
+                        <div class="desc">
+                            <div class="title">
+                                <h6 class="title-fa def-color fw-bold text-overflow-2">
+                                    @item.Name
+                                </h6>
+                            </div>
+                            <div class="foot d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="add" data-hint="افزودن به سبد خرید">
+                                        <form action="/Basket/Index" method="post" style="display: inline;">
+                                            <input type="hidden" name="CatalogitemId" value="@item.Id" />
+                                            <input type="hidden" name="quantity" value="1" />
+                                            <button type="submit" style="background: none; border: none; padding: 0;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
+                                                </svg>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            
+                                <a href="/Product/Details?Slug=@item.Slug">
+                                    <div class="price d-flex flex-column justify-content-end">
+                                        <div>
+                                            <span class="fw-bold font-18 def-color">@item.Price</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+    }
+    </div>
+
+
+</main> 

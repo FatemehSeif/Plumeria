@@ -1,0 +1,106 @@
+﻿@using Application.Commetns.Commands ; 
+@model Endpoint.Models.ViewModels.CommentViewModel;
+@{
+    Layout = null;
+}
+
+
+<div class="tab-pane fade product-comment-content" id="productComment-pane">
+
+    <div class="comment-form">
+        <h6 class="font-26 mb-2 title-font title-line-bottom">
+            نظرت در مورد این
+            محصول
+            چیه؟
+        </h6>
+        <p class="font-14 text-muted mt-2">
+            برای ثبت نظر، از طریق دکمه افزودن
+            دیدگاه جدید
+            نمایید. اگر این محصول را قبلا خریده باشید، نظر شما به عنوان خریدار
+            ثبت خواهد
+            شد.
+        </p>
+        <form action="SendComment" method="post">
+
+            <div class="row gy-4">
+                <div class="col-md-8">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label class="my-3" for="commentRating">امتیاز شما</label>
+                                <fieldset class="rating" id="commentRating">
+                                    <input id="star5" name="Rating" required type="radio" value="5" />
+                                    <label for="star5">5 stars</label>
+                                    <input id="star4" name="Rating" required type="radio" value="4" />
+                                    <label for="star4">4 stars</label>
+                                    <input id="star3" name="Rating" required type="radio" value="3" />
+                                    <label for="star3">3 stars</label>
+                                    <input id="star2" name="Rating" required type="radio" value="2" />
+                                    <label for="star2">2 stars</label>
+                                    <input id="star1" name="Rating" required type="radio" value="1" />
+                                    <label for="star1">1 star</label>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-floating mb-3 form-group">
+                                        <input class="form-control"
+                                               id="floatingInputEmail1"
+                                               placeholder="ایمیل خود را وارد کنید"
+                                               type="email"
+                                               value="@Model.Email">
+                                        <label for="floatingInputEmail1">
+                                            ایمیل خود را
+                                            وارد
+                                            کنید
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating mb-3 form-group">
+                                        <input class="form-control"
+                                               id="floatingInputName"
+                                               placeholder="نام خود را وارد کنید"
+                                               type="text" value="@Model.Title">
+                                        <label for="floatingInputName">
+                                            نام خود را وارد
+                                            کنید
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group form-check">
+                                        <input class="form-check-input"
+                                               id="rememberComment"
+                                               type="checkbox">
+                                        <label class="form-check-label d-block"
+                                               for="rememberComment">
+                                            ذخیره
+                                            نام، ایمیل و وبسایت من در مرورگر برای زمانی
+                                            که دوباره
+                                            دیدگاهی می‌نویسم.
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- Comment Text Area -->
+                                <div class="col-12">
+                                    <div class="form-floating">
+
+                                        <textarea class="form-control" id="floatingTextarea2" value="@Model.Commen" name="CommentText" placeholder="Leave a comment here" style="height: 150px" value=""></textarea>
+                                        <label for="floatingTextarea2">متن نظر!</label>
+                                    </div>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="col-12">
+                                    <button type="submit"  class="btn main-color-two-bg px-5 btn-lg border-0">ثبت نظر</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </form>
+    </div>
+

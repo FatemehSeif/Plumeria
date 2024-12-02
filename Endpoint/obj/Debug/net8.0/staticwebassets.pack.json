@@ -1,0 +1,1893 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\about-us.html",
+      "PackagePath": "staticwebassets\\Theme\\about-us.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\address.html",
+      "PackagePath": "staticwebassets\\Theme\\address.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\bootstrap-icon\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\bootstrap-icon\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\bootstrap-icon\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\bootstrap-icon\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\bootstrap-icon\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\bootstrap-icon\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\bootstrap-icon\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\bootstrap-icon\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\bootstrap-icon\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\bootstrap-icon\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\bootstrap-icon\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\bootstrap-icon\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\color.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\color.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\default-style.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\default-style.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\mega-menu.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\mega-menu.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\fonts\\dana\\dana-fanum-bold.woff2",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\dana\\dana-fanum-bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\fonts\\dana\\dana-fanum-regular.woff2",
+      "PackagePath": "staticwebassets\\Theme\\assets\\fonts\\dana\\dana-fanum-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\404.gif",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\404.gif"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\BBCream-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\BBCream-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\BodyMist-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\BodyMist-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Cream-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Cream-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\EyeEra-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\EyeEra-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\FaceMask-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\FaceMask-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\HairCare-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\HairCare-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\HairGrow-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\HairGrow-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\HairMask-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\HairMask-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\HairSerum-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\HairSerum-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Hairoil-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Hairoil-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\HandCream-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\HandCream-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\HandLiquid.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\HandLiquid.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Kit-Photoroom (1).png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Kit-Photoroom (1).png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Kit-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Kit-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\LipBalm-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\LipBalm-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Lotion-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Lotion-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\MouthWash-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\MouthWash-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Perfume-Photoroom (1).png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Perfume-Photoroom (1).png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\RollMam-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\RollMam-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Serum-Photoroom (1).png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Serum-Photoroom (1).png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Serum-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Serum-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Shampoo-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Shampoo-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\SkinCare-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\SkinCare-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Soap-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Soap-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Sunscreen.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Sunscreen.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Teeth-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Teeth-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\Toothpaste-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\Toothpaste-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\pan-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\pan-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\Categories\\tonik-Photoroom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\Categories\\tonik-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\EAV.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\EAV.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\about\\Google_Play-Icon-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\about\\Google_Play-Icon-Logo.wine.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\about\\about-us.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\about\\about-us.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\about\\application.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\about\\application.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\amazing-offer-scroll-bottom.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\amazing-offer-scroll-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\amazingv2.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\amazingv2.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\application\\app-sibapp.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\application\\app-sibapp.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\application\\bazar-app.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\application\\bazar-app.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\application\\google-play-app.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\application\\google-play-app.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\application\\man-with-orange-jacket-is-texting-his-phone_176841-44473-removebg-preview-1-1.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\application\\man-with-orange-jacket-is-texting-his-phone_176841-44473-removebg-preview-1-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\application\\myket-app.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\application\\myket-app.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\application\\qr.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\application\\qr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\auth-bg.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\auth-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\bank\\bank-logo-lg.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\bank\\bank-logo-lg.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\bank\\bank-melal.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\bank\\bank-melal.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\bank\\bank-meli.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\bank\\bank-meli.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\bank\\bank-mellat.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\bank\\bank-mellat.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\bank\\bank-refah.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\bank\\bank-refah.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\bank\\bank-saderat.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\bank\\bank-saderat.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\bank\\bank-saman.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\bank\\bank-saman.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\bank\\bank-sepah.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\bank\\bank-sepah.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\banner-11.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\banner-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\banner\\banner-1.webp",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\banner\\banner-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\banner\\banner-2.webp",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\banner\\banner-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\banner\\banner-3.webp",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\banner\\banner-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\banner\\banner-4.webp",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\banner\\banner-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\banner\\banner-5.webp",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\banner\\banner-5.webp"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\banner\\banner-6.webp",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\banner\\banner-6.webp"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-sldier-3.webp",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-sldier-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-slider-1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-slider-2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\blog-slider-4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\blog-slider-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\blog\\bonrailco-1.gif",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\blog\\bonrailco-1.gif"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\emptyAddress.webp",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\emptyAddress.webp"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\feature\\box.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\feature\\box.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\feature\\headphone.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\feature\\headphone.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\feature\\money.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\feature\\money.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\feature\\safe.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\feature\\safe.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\feature\\seven.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\feature\\seven.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\footer-bg-shadow.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\footer-bg-shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\footer.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\footer.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\labtop.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\labtop.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\logo.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\map.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\map.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\mega-img-1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\mega-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\mobiles.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\mobiles.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\namad\\enamad.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\namad\\enamad.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\namad\\namad-01.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\namad\\namad-01.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\namad\\pay.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\namad\\pay.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\namad\\rezi.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\namad\\rezi.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\patterns.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\patterns.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\A04-Samsung-2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\A04-Samsung-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\Procesador-Qualcomm-Snapdragon-8-Gen-1-768x488-1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\Procesador-Qualcomm-Snapdragon-8-Gen-1-768x488-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop(1).png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop(1).png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop-1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop-2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop-3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop-4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop-5.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\laptop4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\laptop4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\mobile.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\mobile.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\pirahan.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\pirahan.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-image1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-image2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-image3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-image4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-image5.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-image6.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-1.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-11.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-11.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-12.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-13.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-14.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-15.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-16.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-17.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-18.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-19.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-2.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-2.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-20.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-21.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-22.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-3.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-3.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-4.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-4.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-5.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-5.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-6.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-6.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-7.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-7.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\product-no-bg\\product-image-8.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\product-no-bg\\product-image-8.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\ralph-lauren.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\ralph-lauren.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\shirt1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\shirt1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\shirt2-1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\shirt2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\shirt2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\shirt2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\shirt3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\shirt3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\shirt4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\shirt4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\short-cover.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\short-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\sportswear.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\sportswear.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\television.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\television.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\television1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\television1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\television2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\television2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\television3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\television3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\television4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\television4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\typ-of-textile-44.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\typ-of-textile-44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\wach1.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\wach1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\wach2.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\wach2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\wach3.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\wach3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\wach4.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\wach4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\product\\watch.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\product\\watch.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\profile-avatar.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\profile-avatar.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\slider\\slider-1.gif",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\slider\\slider-1.gif"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\slider\\slider-2.gif",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\slider\\slider-2.gif"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\slider\\slider-3.webp",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\slider\\slider-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\social\\Group 34104.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\social\\Group 34104.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\social\\Plu.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\social\\Plu.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\social\\aparat-white.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\social\\aparat-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\social\\instagram-white.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\social\\instagram-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\social\\telegram-white.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\social\\telegram-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\social\\youtube-white.svg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\social\\youtube-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\tablet-menu.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\tablet-menu.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\top-sales.jpeg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\top-sales.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\user.jpg",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\image\\user.png",
+      "PackagePath": "staticwebassets\\Theme\\assets\\image\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\js\\bootstrap.bundle-5.3.2.min.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\bootstrap.bundle-5.3.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\js\\megaMenu.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\megaMenu.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\js\\modernizr-3.11.2.min.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\modernizr-3.11.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\js\\swiperInit.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\js\\swiperInit.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\503\\oxygen.fonts.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\503\\oxygen.fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\503\\script.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\503\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\503\\style.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\503\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\bootstrap-slider\\bootstrap-slider.min.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\bootstrap-slider\\bootstrap-slider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\bootstrap-slider\\bootstrap-slider.min.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\bootstrap-slider\\bootstrap-slider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\bootstrap-touchspin\\jquery.bootstrap-touchspin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\chartjs\\chart.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\chartjs\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\go-to-top\\script.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\go-to-top\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\go-to-top\\style.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\go-to-top\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\otp-sms\\otp-input.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\otp-sms\\otp-input.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\otp-sms\\otp-loader.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\otp-sms\\otp-loader.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\rasta-contact\\script.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\rasta-contact\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\rasta-contact\\style.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\rasta-contact\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\sweet-alert\\sweet.min.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\sweet-alert\\sweet.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\tagify\\jQuery.tagify.min.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\tagify\\jQuery.tagify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\tagify\\tagify.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\tagify\\tagify.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\timer\\timer.css",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\timer\\timer.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\assets\\plugin\\timer\\timer.js",
+      "PackagePath": "staticwebassets\\Theme\\assets\\plugin\\timer\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\blank.html",
+      "PackagePath": "staticwebassets\\Theme\\blank.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\blog-single.html",
+      "PackagePath": "staticwebassets\\Theme\\blog-single.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\blog.html",
+      "PackagePath": "staticwebassets\\Theme\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\cart-empty.html",
+      "PackagePath": "staticwebassets\\Theme\\cart-empty.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\cart.html",
+      "PackagePath": "staticwebassets\\Theme\\cart.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\category.html",
+      "PackagePath": "staticwebassets\\Theme\\category.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\change-password.html",
+      "PackagePath": "staticwebassets\\Theme\\change-password.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\checkout.html",
+      "PackagePath": "staticwebassets\\Theme\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\compare.html",
+      "PackagePath": "staticwebassets\\Theme\\compare.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\contact-us.html",
+      "PackagePath": "staticwebassets\\Theme\\contact-us.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\delivery-address.html",
+      "PackagePath": "staticwebassets\\Theme\\delivery-address.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\edit-profile.html",
+      "PackagePath": "staticwebassets\\Theme\\edit-profile.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\factor.html",
+      "PackagePath": "staticwebassets\\Theme\\factor.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\failed-payment.html",
+      "PackagePath": "staticwebassets\\Theme\\failed-payment.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\faq.html",
+      "PackagePath": "staticwebassets\\Theme\\faq.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\favorites.html",
+      "PackagePath": "staticwebassets\\Theme\\favorites.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\index.html",
+      "PackagePath": "staticwebassets\\Theme\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\login.html",
+      "PackagePath": "staticwebassets\\Theme\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\order-detail.html",
+      "PackagePath": "staticwebassets\\Theme\\order-detail.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\order.html",
+      "PackagePath": "staticwebassets\\Theme\\order.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\page-404.html",
+      "PackagePath": "staticwebassets\\Theme\\page-404.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\panel-blank.html",
+      "PackagePath": "staticwebassets\\Theme\\panel-blank.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\panel.html",
+      "PackagePath": "staticwebassets\\Theme\\panel.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\product-not-found.html",
+      "PackagePath": "staticwebassets\\Theme\\product-not-found.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\product.html",
+      "PackagePath": "staticwebassets\\Theme\\product.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\search.html",
+      "PackagePath": "staticwebassets\\Theme\\search.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\sending-code.html",
+      "PackagePath": "staticwebassets\\Theme\\sending-code.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\success-payment.html",
+      "PackagePath": "staticwebassets\\Theme\\success-payment.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\ticket-single.html",
+      "PackagePath": "staticwebassets\\Theme\\ticket-single.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\Theme\\ticket.html",
+      "PackagePath": "staticwebassets\\Theme\\ticket.html"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\js\\SignalROnlineVisitorService.js",
+      "PackagePath": "staticwebassets\\js\\SignalROnlineVisitorService.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\AbortController.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\AbortController.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\AbortController.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\AbortController.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\AccessTokenHttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\AccessTokenHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\AccessTokenHttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\AccessTokenHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\DefaultHttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\DefaultHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\DefaultHttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\DefaultHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Errors.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Errors.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Errors.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Errors.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\FetchHttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\FetchHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\FetchHttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\FetchHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HandshakeProtocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HandshakeProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HandshakeProtocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HandshakeProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HeaderNames.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HeaderNames.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HeaderNames.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HeaderNames.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HttpConnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HttpConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HttpConnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HttpConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HubConnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HubConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HubConnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HubConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HubConnectionBuilder.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HubConnectionBuilder.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\HubConnectionBuilder.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\HubConnectionBuilder.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IConnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IConnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IHttpConnectionOptions.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IHttpConnectionOptions.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IHttpConnectionOptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IHttpConnectionOptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IHubProtocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IHubProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IHubProtocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IHubProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ILogger.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ILogger.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ILogger.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ILogger.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IRetryPolicy.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IRetryPolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IRetryPolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IRetryPolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IStatefulReconnectOptions.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IStatefulReconnectOptions.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\IStatefulReconnectOptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\IStatefulReconnectOptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ITransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ITransport.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ITransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ITransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\JsonHubProtocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\JsonHubProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\JsonHubProtocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\JsonHubProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Loggers.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Loggers.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Loggers.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Loggers.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\LongPollingTransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\LongPollingTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\LongPollingTransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\LongPollingTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\MessageBuffer.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\MessageBuffer.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\MessageBuffer.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\MessageBuffer.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Polyfills.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Polyfills.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Polyfills.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Polyfills.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ServerSentEventsTransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ServerSentEventsTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\ServerSentEventsTransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\ServerSentEventsTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Stream.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Stream.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Stream.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Stream.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Subject.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Subject.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Subject.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Subject.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\TextMessageFormat.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\TextMessageFormat.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\TextMessageFormat.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\TextMessageFormat.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Utils.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Utils.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\Utils.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\Utils.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\WebSocketTransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\WebSocketTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\WebSocketTransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\WebSocketTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\XhrHttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\XhrHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\XhrHttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\XhrHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\browser-index.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\browser-index.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\browser-index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\index.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\cjs\\index.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\cjs\\index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\AbortController.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\AbortController.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\AbortController.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\AbortController.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\AbortController.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\AbortController.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\AccessTokenHttpClient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\AccessTokenHttpClient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\AccessTokenHttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\AccessTokenHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\AccessTokenHttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\AccessTokenHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\DefaultHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\DefaultReconnectPolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Errors.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Errors.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Errors.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Errors.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Errors.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Errors.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\FetchHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HandshakeProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HeaderNames.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HeaderNames.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HeaderNames.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HeaderNames.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HeaderNames.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HeaderNames.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HttpClient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HttpClient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HttpConnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HttpConnection.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HttpConnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HttpConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HttpConnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HttpConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HubConnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HubConnection.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HubConnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HubConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HubConnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HubConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\HubConnectionBuilder.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IConnection.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IConnection.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IConnection.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IConnection.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IConnection.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IConnection.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IHttpConnectionOptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IHubProtocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IHubProtocol.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IHubProtocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IHubProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IHubProtocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IHubProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ILogger.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ILogger.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ILogger.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ILogger.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ILogger.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ILogger.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IRetryPolicy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IStatefulReconnectOptions.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IStatefulReconnectOptions.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IStatefulReconnectOptions.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IStatefulReconnectOptions.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\IStatefulReconnectOptions.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\IStatefulReconnectOptions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ITransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ITransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ITransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ITransport.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ITransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ITransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\JsonHubProtocol.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Loggers.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Loggers.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Loggers.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Loggers.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Loggers.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Loggers.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\LongPollingTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\MessageBuffer.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\MessageBuffer.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\MessageBuffer.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\MessageBuffer.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\MessageBuffer.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\MessageBuffer.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Polyfills.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Polyfills.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Polyfills.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Polyfills.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Polyfills.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Polyfills.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\ServerSentEventsTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Stream.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Stream.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Stream.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Stream.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Stream.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Stream.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Subject.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Subject.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Subject.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Subject.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Subject.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Subject.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\TextMessageFormat.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Utils.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Utils.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Utils.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Utils.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\Utils.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\Utils.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\WebSocketTransport.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\XhrHttpClient.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\browser-index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\index.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\index.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\esm\\index.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\esm\\index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Endpoint\\wwwroot\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\webworker\\signalr.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Endpoint.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Endpoint.props",
+      "PackagePath": "build\\Endpoint.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Endpoint.props",
+      "PackagePath": "buildMultiTargeting\\Endpoint.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Endpoint.props",
+      "PackagePath": "buildTransitive\\Endpoint.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

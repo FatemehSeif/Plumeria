@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="FA-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استایلتو</title>
+
+    <link href="~/theme/assets/plugin/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="~/theme/assets/plugin/timer/timer.css" rel="stylesheet" />
+    <link href="~/theme/assets/plugin/go-to-top/style.css" rel="stylesheet" />
+    <link href="~/theme/assets/plugin/rasta-contact/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/theme/assets/css/style.css" />
+    <link href="~/theme/assets/css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="bg-auth">
+
+<section class="content vh-100">
+    <div class="container-fluid h-100">
+        <div class="auth h-100 d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="auth-items">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4">
+                            <div class="auth-logo text-center">
+                                <div class="top-header-logo">
+                                    <a href="">
+                                        <img src="assets/image/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="auth-form shadow-xl rounded-3 border-ui  mt-3 bg-white">
+                                <div class="auth-form-title mb-4 slider-title-desc-center">
+                                    <h2 class="text-center h4 mt-4 mb-5 text-muted title-font">ورود / ثبت نام</h2>
+                                </div>
+                                <form action="" id="form-auth">
+                                    <div class="comment-item mb-3 step-username">
+                                        <input type="email" class="form-control" id="username">
+                                        <label for="username" class="form-label label-float">شماره تلفن یا ایمیل خود را
+                                            وارد
+                                            کنید</label>
+                                    </div>
+                                    <div class="comment-item mt-4 position-relative step-passwd d-none" >
+                                        <input type="password" class="form-control" id="passwd">
+                                        <label for="passwd" class="form-label label-float">رمز عبور خود را
+                                            وارد
+                                            کنید</label>
+                                        <div class="inline-btn-text">
+                                            <a href="" class="btn border-0 main-color-one-bg">ورود با پیامک</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group step-one mt-4">
+                                        <button type="button" class="btn main-color-one-bg w-100 py-2 font-18">ورود / ثبت نام</button>
+                                    </div>
+                                    <div class="form-group step-two mt-4" style="">
+                                        <button type="button" class="btn font-18 main-color-one-bg d-none w-100 py-2 font-18">تایید
+                                        </button>
+                                    </div>
+
+                                </form>
+
+                                <p class="loginTermsDesc mt-3">با ورود و یا ثبت نام در ماهان شما <a
+                                        class="underlined main-color-one-color fw-bold" href="/rules/">شرایط و
+                                    قوانین</a> استفاده از سرویس‌های سایت ماهان و <a
+                                        class="underlined main-color-one-color fw-bold" href="/privacy-polices/">قوانین
+                                    حریم
+                                    خصوصی</a> آن را می‌پذیرید.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="assets/js/modernizr-3.11.2.min.js"></script>
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/js/bootstrap.bundle-5.3.2.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+<script>
+    const stepOneButton = document.querySelector('.step-one button');
+    const stepTwoButton = document.querySelector('.step-two button');
+    const userName = document.querySelector('#username')
+    const password = document.querySelector('#passwd')
+    stepOneButton.addEventListener('click',function (e) {
+        e.preventDefault();
+        if (userName.value===""){
+            userName.classList.add('border-danger')
+            if (document.querySelector('#errLabel')){
+                document.querySelector('#errLabel').remove()
+            }
+            let stepFormLabel = document.createElement('span')
+            stepFormLabel.setAttribute('id','errLabel')
+            stepFormLabel.innerHTML="لطفا فیلد نام کاربری را پر کنید"
+            document.querySelector('.step-username').appendChild(stepFormLabel)
+        }else{
+            document.querySelector('.step-username').classList.add('d-none')
+            stepOneButton.classList.add('d-none')
+            stepTwoButton.classList.remove('d-none')
+            document.querySelector('.step-passwd').classList.remove('d-none')
+        }
+    })
+    stepTwoButton.addEventListener('click',function (e) {
+        e.preventDefault();
+        if (password.value === ""){
+            password.classList.add('border-danger')
+            if (document.querySelector('#errLabel')){
+                document.querySelector('#errLabel').remove()
+            }
+            let stepFormLabel = document.createElement('span')
+            stepFormLabel.setAttribute('id','errLabel')
+            stepFormLabel.innerHTML="لطفا فیلد رمز عبور را پر کنید"
+            document.querySelector('.step-passwd').appendChild(stepFormLabel)
+        }
+    })
+</script>
+
+</body>
+
+</html>

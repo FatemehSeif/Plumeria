@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "AU2bDdSvufPEdP1CqttKM3fWfmPALqyTBQDy8jqod2V56JiLiT0xdW3wsJ2AIe++5dSQheNqmNuBRX72A3yt9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Common\\Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SH.Rayan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\SH.Rayan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\SH.Rayan\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\SH.Rayan\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\SH.Rayan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="FA-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قالب یلدا</title>
+
+    <link rel="stylesheet" href="assets/plugin/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/plugin/go-to-top/style.css">
+    <link rel="stylesheet" href="assets/plugin/rasta-contact/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body class="bg-auth">
+
+<section class="content vh-100">
+    <div class="container-fluid h-100">
+        <div class="auth h-100 d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="auth-items">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4">
+                            <div class="auth-logo text-center">
+                                <div class="top-header-logo">
+                                    <a href="">
+                                        <img src="assets/image/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="auth-form shadow-xl rounded-3 border-ui  mt-3 bg-white">
+                                <div class="alert text-center alert-success">
+                                    یک کد برای شما پیامک شد لطفا آن را وارد کنید
+                                </div>
+                                <div id="otp-input">
+                                    <label>
+                                        <input placeholder="_" type="number" step="1" min="0" max="9" autocomplete="no"
+                                               pattern="\d*"/>
+                                    </label>
+                                    <label>
+                                        <input placeholder="_" type="number" step="1" min="0" max="9" autocomplete="no"
+                                               pattern="\d*"/>
+                                    </label>
+                                    <label>
+                                        <input placeholder="_" type="number" step="1" min="0" max="9" autocomplete="no"
+                                               pattern="\d*"/>
+                                    </label>
+                                    <label>
+                                        <input placeholder="_" type="number" step="1" min="0" max="9" autocomplete="no"
+                                               pattern="\d*"/>
+                                    </label>
+                                    <label>
+                                        <input placeholder="_" type="number" step="1" min="0" max="9" autocomplete="no"
+                                               pattern="\d*"/>
+                                    </label>
+                                    <label>
+                                        <input placeholder="_" type="number" step="1" min="0" max="9" autocomplete="no"
+                                               pattern="\d*"/>
+                                    </label>
+                                    <input id="otp-value" placeholder="_" type="hidden" name="otp"/>
+                                </div>
+                                <!-- Countdown timer html -->
+                                <div class="countDownContainer">
+                                    <div class="countdown-bar" id="countdownB">
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <button id="submit" class="btn my-3 w-100 main-color-two-bg py-2">ورود</button>
+                                <p class="loginTermsDesc mt-3">با ورود و یا ثبت نام در ماهان شما <a
+                                        class="underlined main-color-one-color fw-bold" href="/rules/">شرایط و
+                                    قوانین</a> استفاده از سرویس‌های سایت ماهان و <a
+                                        class="underlined main-color-one-color fw-bold" href="/privacy-polices/">قوانین
+                                    حریم
+                                    خصوصی</a> آن را می‌پذیرید.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="assets/js/modernizr-3.11.2.min.js"></script>
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/js/bootstrap.bundle-5.3.2.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+<!-- otp sms -->
+<script src="assets/plugin/otp-sms/otp-input.js"></script>
+<script src="assets/plugin/otp-sms/otp-loader.js"></script>
+
+<!-- Run Countdown Timer Script -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        countdown('countdownB', 0, 0, 0, 30);
+    });
+</script>
+<!-- End script -->
+
+</body>
+
+</html>

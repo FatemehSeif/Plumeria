@@ -1,0 +1,238 @@
+﻿ @using Application.BasketsService 
+@model BasketDto
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var quantity= Model.Items.Sum(item => item.Quantity);
+    var Slug = Model.Items.Select(P => P.Slug).FirstOrDefault();
+    var Id = Model.Items.Select(p => p.Id).FirstOrDefault(); 
+
+}
+
+
+
+   <link rel="stylesheet" href="~/Theme/assets/plugin/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css">
+
+    <!--============ start main content ==============-->
+
+    <main class="py-25">
+        <div class="container-fluid">
+
+        @if (TempData["InvalidMessage"] != null)
+        {
+            <div class="alert alert-warning">
+                <b> @TempData["InvalidMessage"]  </b><br />
+            </div>
+        }
+            <div class="content">
+                <div class="payment_navigtions">
+                    <div class="line-headers">
+                        <nav class="navbar navbar-expand">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a href="" class="nav-link">
+                                        <span>1</span>
+                                        <p>سبد خرید</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">
+                                        <span>2</span>
+                                        <p>صورتحساب</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">
+                                        <span>3</span>
+                                        <p>جزییات پرداخت</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div> 
+                <div class="slider-title-desc mb-4">
+                   <div class="slider-title-title">
+                    <h2 class="h3">سبد خرید شما <span class="main-color-one-color fw-bold">(@quantity کالا)</span></h2>
+                </div>
+                </div>
+                <div class="row gy-5">
+                    <div class="col-lg-9">
+                        <div class="cart-product-item">
+                            <div class="content-box">
+                                <div class="container-fluid">
+                                @foreach (var item in Model.Items)
+                                {
+                                    <div class="cart-items">
+                                        <div class="item">
+                                            <div class="row gy-2">
+                                                <div class="col-sm-2">
+                                                    <div class="image">
+                                                        <a href="#">
+                                                            <img src="@item.ImageUrl" alt="item">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-10">
+                                                    <div class="d-flex justify-content-between align-items-start">
+                                                        <div class="d-flex align-items-start flex-column me-2">
+                                                            <div class="title d-flex align-items-center flex-wrap">
+                                                                <h6 class="font-16">
+                                                                    <a href="/Product/Details?Slug=@Slug">
+                                                                        @item.CatalogName
+                                                                    </a>
+                                                                </h6>
+                                                            </div>
+                                                            <div class="cart-item-feature d-flex align-items-center flex-wrap mt-3">
+                                                                <div class="item d-flex align-items-center">
+                                                                    <div class="icon"><i class="bi bi-shop"></i></div>
+                                                                    <div class="saller-name mx-2">فروشنده:</div>
+                                                                    <div class="saller-name text-muted">تراست</div>
+                                                                </div>
+                                                                
+                                                                
+                                                            </div>
+                                                        </div>
+                                                       <form  asp-action="RemoveItemFromBasket"  method="post">
+                                                        <input type="hidden" name="ItemId" value="@item.Id" />
+                                                        <button type="submit" class="remove danger-label">
+                                                            <i class="bi bi-trash-fill font-25"></i>
+                                                        </button>
+                                                    </form>
+                                                    </div>
+                                                     <div class="action d-flex flex-wrap justify-content-sm-end justify-content-center align-items-center mt-3">
+                                             
+                                                    <div class="action d-flex flex-wrap justify-content-sm-end justify-content-center align-items-center mt-3">
+                                                        <div class="cart-item-feature d-flex align-items-center flex-wrap">
+                                                          
+                                                            <div class="item d-flex align-items-center">
+                                                                <p class="mb-0 new-price font-16">@item.UnitPrice تومان</p>
+                                                            </div>
+                                                        </div>
+                                                      
+                                                   <div class="counter">
+                                                    <input type="text" id="quantity-@item.Id" name="count" class="counter" value="@item.Quantity" data-item-id="@item.Id">
+                                                   </div>
+
+
+
+                                                 </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    </div> 
+                                }
+                                </div>
+                            </div>
+                        </div>
+                
+                                           
+
+                           
+                        <form action="/Basket/Index">
+                            <button class="btn px-5 main-color-two-bg btn-lg font-16">بروز رسانی سبد خرید</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="position-sticky top-0">
+                            <div class="cart__order-total">
+                                <div class="box__shaped-title">
+                                    <svg width="230" height="75" viewBox="0 0 230 75" fill="none">
+                                        <path d="M230 0H0V10C26.2258 10.6605 43.6909 20.4901 52.0499 27.9356C60.4088 35.3811 84.5186 61.9259 84.5186 61.9259C101.038 79.219 128.627 79.219 145.146 61.9259C145.146 61.9259 169.146 35.4578 177.549 28.0042C185.953 20.5506 203.675 10.6625 230 10V0Z" fill="#f4f4f4"></path>
+                                        <defs>
+                                            <linearGradient id="paint0_linear" x1="115" y1="0" x2="115" y2="74.8957" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#FAFBFB"></stop>
+                                                <stop offset="1" stop-color="#F4F6F8"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <div class="box__shaped-title__icon"></div>
+                                </div>
+
+                                <div class="cart__order-total-row">
+                                    <label class="order-total-row__col-right">جمع مبلغ کالاها:</label>
+                                <div class="order-total-row__col-left"><span>@Model.Total().ToString("n0")</span><span class="font-12 ms-1">تومان</span></div>
+                                </div>
+                                <div class="cart__order-total-row cart__order-total-row--benefit">
+                         
+                                </div>
+                                <div class="cart__order-total-box">
+                                    <div class="cart__order-total-row cart__order-total-row--text">
+                                  هزینه ارسال   40000
+                                      تومان میباشد       </div>
+                                    <div class="cart__order-total-row cart__order-total-row--total">
+                                        <label class="order-total-row__col-right">جمع سبد خرید :</label>
+                                        <div class="order-total-row__col-left">
+                                            <span>@Model.Total().ToString("n0")</span><span class="font-12 ms-1">تومان</span>
+                                        </div     
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="/Basket/ShippingPayment" class="btn w-100 d-block main-color-green py-3">تکمیل فرایند خرید</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
+
+
+                                                    
+
+  @section Scripts{
+
+  
+
+<!-- These scripts are specific to this page   -->
+<script src="~/Theme/assets/plugin/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+<!-- initial counter product for product add to cart section -->
+<script>
+    function SetQuantity(itemId) {
+        var quantity = $("#quantity-" + itemId).val();  // Get the value of the specific input field by its id
+        $.ajax({
+            type: "POST",
+            url: "/basket/setquantity?basketItemId=" + itemId + "&quantity=" + quantity,  // Correct the URL parameters with a single "&"
+            success: function () {
+                location.reload();  // Reload page on success
+            },
+            error: function (xhr, status, error) {
+                alert("Error: " + error);
+            }
+        });
+    }
+
+    // Document Ready Function
+    $(document).ready(function () {
+        // Initialize the TouchSpin counter
+        $("input[name='count']").TouchSpin({
+            min: 1,
+            max: 1000000000000000,  // Maximum value allowed
+            buttondown_class: "btn-counter waves-effect waves-light",
+            buttonup_class: "btn-counter waves-effect waves-light"
+        }).on('touchspin.on.startspin', function () {  // Add a custom event handler
+            $(this).trigger('change');  // Manually trigger the change event when TouchSpin is used
+        });
+
+        // Attach event handler for when the counter value changes
+        $("input[name='count']").on('change', function () {
+            var itemId = $(this).data('item-id');  // Retrieve the itemId from data attribute
+            SetQuantity(itemId);  // Call SetQuantity to make AJAX request
+        });
+    });
+</script>
+
+
+    <!--============ end main content ==============-->
+ } 
+    
+
+
+
+
+ 
+
+

@@ -1,0 +1,62 @@
+﻿@using Application.Catalogs.CatalogItems.GetCatalogItemPLP
+@using Application.Catalogs.CatalogTypes;
+@using Application.Dtos;
+@model PaginatedItemsDto<CatalogPLPDto>
+@{
+    ViewData["Title"] = "لیست محصولات";
+    Layout = "~/Views/Shared/_LayoutProducts.cshtml";
+}
+
+<div class="row g-4">
+    @foreach (var item in Model.Data)
+    {
+        <div class="col-lg-4 col-sm-6">
+            <div class="product-box-item border-ui bg-white w-100">
+                <div class="hover">
+                    <div class="hover-btn">
+                        <a href="" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="مقایسه محصول"><i class="bi bi-arrow-left-right"></i></a>
+                        <a href="" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="افزودن به علاقه مندی"><i class="bi bi-heart"></i></a>
+                        <a href="" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="نمایش سریع"><i class="bi bi-eye"></i></a>
+                    </div>
+                    <div class="hover-color">
+                        <span style="background-color: #10b663;"></span>
+                        <span style="background-color: #e2350a;"></span>
+                        <span style="background-color: #fafafa;"></span>
+                    </div>
+                </div>
+                <form asp-action="Details">
+                    <a href="#" onclick="this.closest('form').submit(); return false;">
+                    <input type="hidden" name="Slug" value="@item.Slug">
+                    <div class="image text-center">
+                        <img ssrc="@item.Image" alt="" class="img-fluid">
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            <h6 class="title-fa def-color fw-bold text-overflow-2">
+                                @item.Name
+                            </h6>
+                        </div>
+                        <div class="foot d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="add" data-hint="افزودن به سبد خرید">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="price d-flex flex-column justify-content-end">
+                                <div>
+                                    <span class="fw-bold font-18 def-color">@item.Price</span>
+                                    @* Uncomment the below lines for discount and original price *@
+                                    @* <span class="badge main-color-two-bg rounded-pill">25%</span> *@
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </a>    
+                </form>
+            </div>
+        </div>
+    }
+</div> 

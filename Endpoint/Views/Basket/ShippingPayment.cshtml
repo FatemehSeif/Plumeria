@@ -1,0 +1,179 @@
+﻿@using Endpoint.Models.ViewModels.Baskets;
+
+@model ShippingPaymentViewModel
+@{
+    ViewData["Title"] = "انتخاب آدرس";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Id = Model.Basket.Items.Select(p => p.Id).FirstOrDefault();
+}
+
+
+<main class="py-25">
+    <div class="container-fluid">
+        <div class="content">
+            <div class="payment_navigtions">
+                <div class="line-headers">
+                    <nav class="navbar navbar-expand">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <form action="/Basket/Index" method="post">
+                                    <input type="hidden" name="CatalogitemId" value="@Model.Basket.Items.Select(p => p.Id).FirstOrDefault()" />
+                                    <button type="submit" class="nav-link" style="background:none;border:none;padding:0;">
+                                        <span>1</span>
+                                        <p>سبد خرید</p>
+                                    </button>
+                                </form>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <span>2</span>
+                                    <p>صورتحساب</p>
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="" class="nav-link">
+                                    <span>3</span>
+                                    <p>جزییات پرداخت</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row gy-5">
+                <div class="col-lg-9">
+                    <div class="content-box">
+                        <div class="container-fluid">
+                            <!-- Shipping Address Selection -->
+                            <div class="slider-title-desc mb-4">
+                                <div class="slider-title-title">
+                                    <h2 class="h4">آدرس<span class="main-color-one-color fw-bold"> تحویل </span></h2>
+                                </div>
+                            </div>
+                            <div class="text-start">
+                                <div class="row mx-0">
+                                    @foreach (var item in Model.UserAddresses)
+                                    {
+                                        <div class="col-xl-3 col-lg-4 col-sm-6 mb-3">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" id="Address-@item.Id" name="Address" value="@item.Id" checked class="custom-control-input">
+                                                <label class="custom-control-label address-select" for="Address-@item.Id">
+                                                    <span class="head-address-select">به این آدرس ارسال شود</span>
+                                                    <span>@item.PostalAddress</span>
+                                                    <span><i class="fa fa-user"></i> @item.ReciverName</span>
+                                                    <a href="#" class="link--with-border-bottom edit-address-btn" data-toggle="modal" data-target="#editAddressModal">
+                                                        ویرایش
+                                                        <i class="fa fa-edit"></i>
+                                                    </a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    }
+                                    <div class="col-xl-3 col-lg-4 col-sm-6 mb-3">
+                                        <div class="custom-control custom-radio">
+                                            <a asp-action="AddNewAddress" asp-controller="Address" asp-area="Customers" class="add-address">
+                                                <i class="fa fa-plus"></i> آدرس جدید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Payment Method Selection -->
+                            <div class="slider-title-desc mb-4">
+                                <div class="slider-title-title">
+                                    <h2 class="h4">شیوه<span class="main-color-one-color fw-bold"> پرداخت </span></h2>
+                                </div>
+                            </div>
+                            <div class="payment-selection">
+                                <div class="custom-control custom-radio custom-control-inline mb-3">
+                                    <input type="radio" id="OnlinePaymnt" value="OnlinePaymnt" name="PaymentMethod" class="custom-control-input" checked>
+                                    <label class="custom-control-label payment-select" for="OnlinePaymnt">
+                                        <span class="d-flex align-items-center">
+                                            <i class="fad fa-credit-card"></i>
+                                            <span>
+                                                <span class="title">پرداخت اینترنتی</span>
+                                                <span class="subtitle">آنلاین با تمامی کارت‌های بانکی</span>
+                                            </span>
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline mb-3">
+                                    <input type="radio" id="PaymentOnTheSpot" name="PaymentMethod" value="PaymentOnTheSpot" class="custom-control-input">
+                                    <label class="custom-control-label payment-select" for="PaymentOnTheSpot">
+                                        <span class="d-flex align-items-center">
+                                            <i class="fad fa-map-marker-alt"></i>
+                                            <span>
+                                                <span class="title">پرداخت در محل</span>
+                                                <span class="subtitle">پرداخت درب منزل</span>
+                                            </span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Bank Selection -->
+                            <div class="slider-title-desc mb-4">
+                                <div class="slider-title-title">
+                                    <h2 class="h4">انتخاب<span class="main-color-one-color fw-bold"> درگاه </span></h2>
+                                </div>
+                            </div>
+                            <div class="delivary-payment-bank mt-3 flex-wrap d-flex align-items-center">
+                                <div class="image-selector">
+                                    <nav class="navbar navbar-expand">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <input type="radio" checked name="Bank" id="cb2">
+                                                <label for="cb2"><img src="assets/image/bank/bank-meli.png" alt=""></label>
+                                            </li>
+                                            <!-- Add other banks as needed -->
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Summary -->
+                <div class="col-lg-3">
+                    <div class="position-sticky top-0">
+                        <div class="cart__order-total">
+                            <div class="cart__order-total-row">
+                                <label class="order-total-row__col-right">جمع مبلغ کالاها:</label>
+                                <div class="order-total-row__col-left">
+                                    <span>@Model.Basket.TotalWithOutDiescount().ToString("n0")</span>
+                                    <span class="font-12 ms-1">تومان</span>
+                                </div>
+                            </div>
+
+                            @if (Model.Basket.DiscountAmount > 0)
+                            {
+                                <div class="cart__order-total-row cart__order-total-row--benefit">
+                                    <div class="order-total-row__col-right">تخفیف کالاها:</div>
+                                    <div class="order-total-row__col-left">
+                                        <span>@Model.Basket.DiscountAmount.ToString("n0")</span>
+                                        <span class="font-12 ms-1">تومان</span>
+                                    </div>
+                                </div>
+                            }
+
+                            <div class="cart__order-total-row cart__order-total-row--total">
+                                <label class="order-total-row__col-right">جمع:</label>
+                                <div class="order-total-row__col-left">
+                                    <span>@Model.Basket.Total().ToString("n0")</span>
+                                    <span class="font-12 ms-1">تومان</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form method="post" action="/Order/Finalize">
+                            <button type="submit" class="btn w-100 d-block main-color-green py-3">پرداخت و ثبت نهایی سفارش</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

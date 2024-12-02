@@ -1,0 +1,141 @@
+﻿
+@{
+  
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main>
+    <div class="container-fluid">
+        <div class="content pt-md-3 pt-0">
+            <div class="row">
+                <div class="col-xl-3 col-md-4">
+                    <!-- Start Dashboard Menu Mobile -->
+                    <div class="custom-filter d-xl-none d-block">
+                        <button class="btn btn-filter-float border-0 btn-dark shadow-box px-4 rounded-3 position-fixed"
+                                style="z-index: 999; bottom: 75px;" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="bi bi-funnel font-20 fw-bold text-white"></i>
+                            <span class="d-block font-14 text-white">منو</span>
+                        </button>
+
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight"
+                             aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel1">منو</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="panel-side position-sticky top-0">
+                                    <div class="content-box bs-bg-gray-300 pb-0">
+                                        <div class="container-fluid">
+                                            <div class="panel-box bg-white p-3 rounded-4 shadow-md">
+                                                <div class="d-flex align-items-center">
+                                                    <img src="assets/image/user.png"
+                                                         class="img-fluid img-profile-panel rounded-circle me-3 shadow-md" alt="">
+                                                    <div class="d-grid gap-2">
+                                                        <h6 class="h6 main-color-one-color">امیر رضایی</h6>
+                                                        <h6 class="font-14 text-muted">
+                                                            093312345678 <a href="" class="ms-2 text-muted">
+                                                                <i class="bi bi-pencil-square"></i>
+                                                            </a>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="profile-box">
+                                                <!-- Sidebar Profile Menu -->
+                                                <nav class="navbar profile-box-nav">
+                                                    <ul class="navbar-nav flex-column">
+                                                        <li class="nav-item active"><a href="" class="nav-link"><i class="bi bi-house-door me-3"></i>پروفایل</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-cart-check me-3"></i>سفارش های من <span class="badge text-dark ms-2 rounded-pill main-color-one-bg">5</span></a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-pin-map me-3"></i>آدرس های من</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-bell me-3"></i>پیام ها و اطلاعیه ها</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-chat-dots me-3"></i>نظرات من</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-heart me-3"></i>محصولات مورد علاقه</a></li>
+                                                        <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-arrow-right-square me-3"></i>خروج از حساب کاربری</a></li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Dashboard Menu Mobile -->
+                    <!-- Sidebar for larger screens -->
+                    <div class="panel-side d-xl-block d-none position-sticky top-0">
+                        <div class="content-box bs-bg-gray-300 pb-0">
+                            <div class="container-fluid">
+                                <div class="panel-box bg-white p-3 rounded-4 shadow-md">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/image/user.png"
+                                             class="img-fluid img-profile-panel rounded-circle me-3 shadow-md" alt="">
+                                        <div class="d-grid gap-2">
+                                            <h6 class="h6 main-color-one-color">امیر رضایی</h6>
+                                            <h6 class="font-14 text-muted">093312345678 <a href="" class="ms-2 text-muted"><i class="bi bi-pencil-square"></i></a></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="profile-box">
+                                    <!-- Reuse Sidebar Menu -->
+                                    <nav class="navbar profile-box-nav">
+                                        <ul class="navbar-nav flex-column">
+                                            <li class="nav-item active"><a href="" class="nav-link"><i class="bi bi-house-door me-3"></i>پروفایل</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-cart-check me-3"></i>سفارش های من</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-pin-map me-3"></i>آدرس های من</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-bell me-3"></i>پیام ها و اطلاعیه ها</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-heart me-3"></i>محصولات مورد علاقه</a></li>
+                                            <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-arrow-right-square me-3"></i>خروج از حساب کاربری</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="col-xl-9 col-md-8">
+                    <div class="section-title mb-2">
+                        @ViewData["Title"]
+                    </div>
+                    @RenderBody()
+
+                    <!-- Banners Section -->
+                    <div class="row mb-5">
+                        <div class="col-lg-3 col-md-6 col-sm-6 mb-lg-0 mb-3">
+                            <div class="banner">
+                                <a href="#">
+                                    <img src="~/Theme/assets/images/banner/banner-sm-01.jpg" alt="banner">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 mb-lg-0 mb-3">
+                            <div class="banner">
+                                <a href="#">
+                                    <img src="~/Theme/assets/images/banner/banner-sm-02.jpg" alt="banner">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 mb-lg-0 mb-3">
+                            <div class="banner">
+                                <a href="#">
+                                    <img src="~/Theme/assets/images/banner/banner-sm-03.jpg" alt="banner">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 mb-lg-0 mb-3">
+                            <div class="banner">
+                                <a href="#">
+                                    <img src="~/Theme/assets/images/banner/banner-sm-04.jpg" alt="banner">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

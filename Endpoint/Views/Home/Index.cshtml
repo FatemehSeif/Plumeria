@@ -1,0 +1,1048 @@
+﻿@using Application.HomePageService;
+@using Domain.Banners;
+@model HomePageDto;
+
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    var sliders = Model.Banners.Where(p => p.Position == Position.Slider).ToList();
+    var Line_1 = Model.Banners.Where(p => p.Position == Position.Line_1).FirstOrDefault();
+    var Line_2 = Model.Banners.Where(p => p.Position == Position.Line_2).ToList();
+    var Line_3 = Model.Banners.Where(p => p.Position == Position.Line_3).ToList();
+    var Line_4 = Model.Banners.Where(p => p.Position == Position.Line_4).ToList();
+    var Line_5 = Model.Banners.Where(p => p.Position == Position.Line_5).ToList();
+
+    var itemWithCatalogTypeId1 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 1);
+    string slug1 = itemWithCatalogTypeId1?.Slug;
+
+    var itemWithCatalogTypeId2 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 2);
+    string slug2 = itemWithCatalogTypeId2?.Slug;
+
+    var itemWithCatalogTypeId4 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 4);
+    string slug4 = itemWithCatalogTypeId4?.Slug;
+
+    var itemWithCatalogTypeId5= Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 5);
+    string slug5 = itemWithCatalogTypeId5?.Slug;
+
+    var itemWithCatalogTypeId11 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 11);
+    string slug11 = itemWithCatalogTypeId11?.Slug;
+
+    var itemWithCatalogTypeId20 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 20);
+    string slug20 = itemWithCatalogTypeId20?.Slug;
+
+    var itemWithCatalogTypeId22 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 22);
+    string slug22 = itemWithCatalogTypeId22?.Slug;
+
+
+    var itemWithCatalogTypeId23 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 23);
+    string slug23 = itemWithCatalogTypeId23?.Slug;
+
+
+    var itemWithCatalogTypeId25 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 25);
+    string slug25 = itemWithCatalogTypeId25?.Slug;
+
+    var itemWithCatalogTypeId26 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 26);
+    string slug26 = itemWithCatalogTypeId26?.Slug;
+
+
+    var itemWithCatalogTypeId32 = Model.catalogs.FirstOrDefault(p => p.CatalogTypeID == 32);
+    string slug32 = itemWithCatalogTypeId32?.Slug;
+
+   
+
+}
+@* //////////////////////////////////////////////////////////////////// *@
+
+
+<!--============ start main slider ==============-->
+
+<section class="main-slider">
+    <div class="container-fluid">
+        <div class="home-slider shadow-box">
+            <div class="slider__layer slider__layer--top"></div>
+            <div class="slider__layer slider__layer--bottom"></div>
+            <div class="swiper homeSlider" id="">
+                <div class="swiper-wrapper">
+                     @foreach (var item in sliders)
+                     {
+                        <div class="swiper-slide">
+                       
+
+                            <a href="@item.Link">
+                                <img src="@item.Image" alt="">
+                            </a>
+
+                        </div>
+                   
+                 
+                     }
+                </div>
+                <div class="swiper-button-next d-lg-flex d-none"></div>
+                <div class="swiper-button-prev d-lg-flex d-none"></div>
+                <div class="swiper-pagination-bg">
+                    <div>
+                        <svg fill="none" height="75" viewBox="0 0 231 75" width="231"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path clip-rule="evenodd" d="M0 0C31.5006 0.949537 50.52 17.872 56.1955 26.4544L55.986 25.8011L82.4924 58.631C99.3032 79.4521 131.038 79.4521 147.849 58.6309L174.356 25.8011L174.146 26.4544C179.822 17.872 198.844 0.949537 230.349 0H0Z"
+                                  fill="#FCFCFC"
+                                  fill-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--============ end main slider ==============-->
+<!--============ start shop feature ==============-->
+
+<section class="shop-feature">
+    <div class="container-fluid">
+    
+        <div class="shop-feature-parent">
+            <div class="row justify-content-center gy-4 gx-2 row-cols-1 row-cols-lg-5 row-cols-xl-5">
+           @*      <div class="col">
+                    <div class="shop-feature-item shadow-top">
+                        <img alt="" src="assets/image/feature/box.png">
+                        <h5 class="mt-2">تحویل اکسپرس</h5>
+                    </div>
+                </div> *@
+                <div class="col">
+                    <div class="shop-feature-item shadow-bottom">
+                        <img src="~/theme/assets/image/feature/headphone.png" />
+                        <h5 class="mt-2"> پشتیبانی آنلاین</h5>
+                    </div>
+                </div>
+         
+                <div class="col">
+                    <div class="shop-feature-item shadow-bottom">
+                        <img alt="" src="~/theme/assets/image/feature/safe.png">
+                        <h5 class="mt-2"> ضمانت کالا</h5>
+                    </div>
+                </div>
+             
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--============ end shop feature ==============-->
+<!--============ start category ==============-->
+
+<section class="site-category py-20">
+    <div class="container-fluid">
+        <div class="section-title">
+            <h3 class="fw-bold text-center"><span class="main-color-one-color">دسته بندی</span> محصولات</h3>
+            <img src="~/theme/assets/image/category/line.png" class="line-image" alt="">
+        </div>
+
+        <div class="site-categories">
+            <div class="row g-4 justify-content-center">
+
+
+         
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                        <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="1">
+                            <input type="hidden" name="Slug" value="@slug1">
+                        <input type="hidden" name="CatalogTypeID" value="1">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                      
+                            <div class="site-category-items-icon">
+
+                                <img src="~/theme/assets/image/Categories/skincare-photoroom.png" alt="">
+                            </div>
+                            <h6 class="text-center">محصولات مراقبت از پوست</h6>
+                                    </a>
+                                </form>
+
+                    </div>
+                </div>
+                
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                       
+                         <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="2">
+                            <input type="hidden" name="Slug" value="@slug2">
+                            <input type="hidden" name="CatalogTypeID" value="2">     
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/Categories/haircare-photoroom.png" />
+                         
+                            </div>
+                            <h6 class="text-center">محصولات مراقبت از مو</h6>
+                           </a>
+                         </form>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                           <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="4">
+                            <input type="hidden" name="Slug" value="@slug4">
+                        <input type="hidden" name="CatalogTypeID" value="4">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/Categories/perfume-photoroom (1).png" />
+                            </div>
+                            <h6 class="text-center">عطر و آرایشی</h6>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                              <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="4">
+                            <input type="hidden" name="Slug" value="@slug4">
+                        <input type="hidden" name="CatalogTypeID" value="4">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/Categories/teeth-photoroom.png" />
+                            </div>
+                            <h6 class="text-center">دهان و دندان</h6>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                       <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="11">
+                            <input type="hidden" name="Slug" value="@slug11">
+                        <input type="hidden" name="CatalogTypeID" value="11">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/categories/sunscreen.png" />
+                            </div>
+                            <h6 class="text-center">انواع ضد آقتاب</h6>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                      <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="20">
+                            <input type="hidden" name="Slug" value="@slug20">
+                        <input type="hidden" name="CatalogTypeID" value="20">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/categories/hairoil-photoroom.png" />
+                            </div>
+                            <h6 class="text-center">روغن مو</h6>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                       <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="22">
+                            <input type="hidden" name="Slug" value="@slug22">
+                        <input type="hidden" name="CatalogTypeID" value="22">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/categories/shampoo-photoroom.png" />
+                            </div>
+                            <h6 class="text-center">شامپو بدن</h6>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                         <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="32">
+                            <input type="hidden" name="Slug" value="@slug32">
+                        <input type="hidden" name="CatalogTypeID" value="32">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/categories/bodymist-photoroom.png" />
+                            </div>
+                            <h6 class="text-center">بادی میست</h6>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                       <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="26">
+                            <input type="hidden" name="Slug" value="@slug26">
+                        <input type="hidden" name="CatalogTypeID" value="26">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/categories/handliquid.png" />
+                            </div>
+                            <h6 class="text-center">مایع دستشویی</h6>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                       <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="23">
+                            <input type="hidden" name="Slug" value="@slug23">
+                        <input type="hidden" name="CatalogTypeID" value="23">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/categories/handcream-photoroom.png" />
+                            </div>
+                            <h6 class="text-center">کرم دست و بدن</h6>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-6">
+                    <div class="site-category-items p-3 shadow-box rounded-3">
+                        <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="25">
+                            <input type="hidden" name="Slug" value="@slug25">
+                        <input type="hidden" name="CatalogTypeID" value="25">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                            <div class="site-category-items-icon">
+                                <img src="~/theme/assets/image/categories/rollmam-photoroom.png" />
+                            </div>
+                            <h6 class="text-center">رول ضد تعریق</h6>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+
+             
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--============ end category ==============-->
+<!--============ start amazing slider ==============-->
+
+<section class="amazing-slider site-slider">
+    <div class="container-fluid">
+        <div class="amazing-slider-parent">
+            <div class="swiper amazing">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide sw-title-image">
+                        <div class="d-flex justify-content-center mt-5 align-items-center flex-column">
+                            <h3 class="text-white">محصولات</h3>
+                            <h3 class="text-white">تراست اسمارت</h3>
+
+                            <a href="/Product/SortedByBrandSmart" class="mt-2 btn btn-light rounded-pill btn-sm btn-amazing-sw"> مشاهده همه <i class="bi bi-arrow-left-short"></i></a>
+                        </div>
+                    </div>
+                    @foreach (var item in Model.Smart )
+                    {
+                        <div class="swiper-slide">
+                      
+                            <div class="product-box-item border-ui bg-white">
+                             
+                                    <div class="hover">
+                                        <div class="hover-btn">
+                                            <a href="/MyFavourite/AddToMyFavourite?=@item.Id" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="افزودن به علاقه مندی"><i class="bi bi-heart"></i></a>
+                                            <a href="/Product/Details?Slug=@item.Slug" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="نمایش سریع"><i class="bi bi-eye"></i></a>
+                                        </div>
+
+                                    </div>
+                                    <a href="/Product/Details?Slug=@item.Slug">
+                                        <div class="image text-center">
+                                            <img src="@item.Image" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="desc">
+                                            <div class="title">
+                                                <h6 class="title-fa def-color fw-bold text-overflow-2">
+                                                    @item.Name
+                                                </h6>
+                                            </div>
+                                            <div class="foot d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <div class="add" data-hint="افزودن به سبد خرید">
+                                                        <form action="/Basket/Index" method="post" style="display: inline;">
+                                                            <input type="hidden" name="CatalogitemId" value="@item.Id" />
+                                                            <input type="hidden" name="quantity" value="1" />
+                                                            <button type="submit" style="background: none; border: none; padding: 0;">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
+                                                                </svg>
+                                                            </button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+                                                <a href="/Product/Details?Slug=@item.Slug">
+                                                    <div class="price d-flex flex-column justify-content-end">
+                                                        <div>
+                                                            <span class="fw-bold font-18 def-color">@item.Price</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </a>
+                            </div>
+                          
+                        </div>
+         
+                   }
+                   
+                </div>
+               
+                <div class="swiper-button-next d-lg-flex d-none"></div>
+                <div class="swiper-button-prev d-lg-flex d-none"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--============ end amazing slider ==============-->
+<!--============ start banner section ==============-->
+
+<section class="banner">
+    <div class="container-fluid">
+        <div class="row gy-4">
+            <div class="col-md-6">
+                @if (Line_1 != null)
+                {
+                    <div class="banner-item running-top">
+
+                        <a href="@Line_1.Link">
+                            <img src="@Line_1.Image" alt="banner">
+                        </a>
+                    </div>
+                }
+            </div>
+     
+        </div>
+    </div>
+</section>
+
+<!--============ end banner section ==============-->
+<!--============ start product slider ==============-->
+
+<section class="product-slider  site-slider">
+    <div class="container-fluid">
+        <div class="slider-title">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-title">
+                            <h2 class="h3">محصولات <span class="main-color-one-color fw-bold">پروفشنال</span></h2>
+                            <p class="mb-0 mt-2 h6 text-muted">
+                                جدیدترین محصولات پروفشنال را اینجا میتوانید اینجا
+                                ببینید
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="/Product/SortedByBrandProf" class="main-color-one-color font-16"> مشاهده همه <i class="bi bi-caret-left-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper pro-slider">
+            <div class="swiper-wrapper align-items-center">
+                @foreach (var item in Model.Prof)
+                {
+                    <div class="swiper-slide">
+
+                        <div class="product-box-item border-ui bg-white">
+
+                            <div class="hover">
+                                <div class="hover-btn">
+                                    <a href="/MyFavourite/AddToMyFavourite?=@item.Id" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="افزودن به علاقه مندی"><i class="bi bi-heart"></i></a>
+                                    <a href="/Product/Details?Slug=@item.Slug" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="نمایش سریع"><i class="bi bi-eye"></i></a>
+                                </div>
+
+                            </div>
+                            <a href="/Product/Details?Slug=@item.Slug">
+                                <div class="image text-center">
+                                    <img src="@item.Image" alt="" class="img-fluid">
+                                </div>
+                                <div class="desc">
+                                    <div class="title">
+                                        <h6 class="title-fa def-color fw-bold text-overflow-2">
+                                            @item.Name
+                                        </h6>
+                                    </div>
+                                    <div class="foot d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <div class="add" data-hint="افزودن به سبد خرید">
+                                                <form action="/Basket/Index" method="post" style="display: inline;">
+                                                    <input type="hidden" name="CatalogitemId" value="@item.Id" />
+                                                    <input type="hidden" name="quantity" value="1" />
+                                                    <button type="submit" style="background: none; border: none; padding: 0;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
+                                                        </svg>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <a href="/Product/Details?Slug=@item.Slug">
+                                            <div class="price d-flex flex-column justify-content-end">
+                                                <div>
+                                                    <span class="fw-bold font-18 def-color">@item.Price</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                }
+            </div>
+        </div>
+               
+        <div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+<!--============ end product slider ==============-->
+<!--============ start banner section ==============-->
+
+<section class="banner">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="banner-item running-top">
+                    @if (Line_1 != null)
+                    {
+                        foreach (var i in Line_2)
+                        {
+                            <a href="@i.Link">
+                                <img src="@i.Image" class="w-100 rounded-3" alt="banner">
+                            </a>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--============ end banner section ==============-->
+<!--============ start amazing section ==============-->
+
+<section class="product-boxs site-slider">
+    <div class="container-fluid">
+        <div class="slider-title mb-5">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-title">
+                            <h2 class="h3">محصولات <span class="main-color-one-color title-font">آرایشی</span></h2>
+                            <p class="mb-0 mt-2 h6 text-muted">
+                                جدیدترین محصولات آرایشی را اینجا میتوانید اینجا
+                                ببینید
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="/Product/Perfume" class="main-color-one-color font-16">
+                            مشاهده همه <i class="bi bi-caret-left-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-parent">
+            <div class="swiper" id="product-slider">
+                <div class="swiper-wrapper ">
+                    
+                    @foreach (var item in Model.catalogs.Where(p=> p.CatalogTypeID==4)) 
+                    {
+                        <div class="swiper-slide">
+
+                            <div class="product-box-item border-ui bg-white">
+
+                                <div class="hover">
+                                    <div class="hover-btn">
+                                        <a href="/MyFavourite/AddToMyFavourite?=@item.Id" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="افزودن به علاقه مندی"><i class="bi bi-heart"></i></a>
+                                        <a href="/Product/Details?Slug=@item.Slug" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="نمایش سریع"><i class="bi bi-eye"></i></a>
+                                    </div>
+
+                                </div>
+                                <a href="/Product/Details?Slug=@item.Slug">
+                                    <div class="image text-center">
+                                        <img src="@item.Image" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="desc">
+                                        <div class="title">
+                                            <h6 class="title-fa def-color fw-bold text-overflow-2">
+                                                @item.Name
+                                            </h6>
+                                        </div>
+                                        <div class="foot d-flex justify-content-between align-items-center">
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <div class="add" data-hint="افزودن به سبد خرید">
+                                                    <form action="/Basket/Index" method="post" style="display: inline;">
+                                                        <input type="hidden" name="CatalogitemId" value="@item.Id" />
+                                                        <input type="hidden" name="quantity" value="1" />
+                                                        <button type="submit" style="background: none; border: none; padding: 0;">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
+                                                            </svg>
+                                                        </button>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                            <a href="/Product/Details?Slug=@item.Slug">
+                                                <div class="price d-flex flex-column justify-content-end">
+                                                    <div>
+                                                        <span class="fw-bold font-18 def-color">@item.Price</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    }
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="amazing-offer-btn" data-scroll-to="#banners"></button>
+        </div>
+    </div>
+</section>
+
+<!--============ start amazing section ==============-->
+<!--============ start product row ==============-->
+
+<section class="products-row py-20">
+    <div class="container-fluid">
+        <div class="slider-title">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-title">
+                            <h2 class="h3">محصولات <span class="main-color-one-color fw-bold">تازه وارد</span></h2>
+                            <p class="mb-0 mt-2 h6 text-muted">
+                                جدیدترین محصولات تراست را اینجا میتوانید اینجا
+                                ببینید
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="/Product/Newest" class="main-color-one-color font-16"> مشاهده همه <i class="bi bi-caret-left-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <div class="parent bg-white p-3 shadow-box rounded-3 mt-4">
+    <div class="row g-3">
+        @for (int i = 0; i < Model.Newest.Count; i++)
+        {
+            <div class="col-lg-3 col-sm-6">
+                <div class="item bg-white p-2">
+                    <div class="row gy-2 align-items-center">
+                        <div class="col-4">
+                            <div class="image">
+                                <img src="@Model.Newest[i].Image" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="d-flex align-items-center">
+                                        <a href="/Product/Details?Slug=@Model.Newest[i].Slug">
+                                    <div class="title">
+                                        <h6 class="font-14 text-overflow-2">
+                                            @Model.Newest[i].Name
+                                        </h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            // اضافه کردن یک ردیف جدید بعد از هر 12 عنصر
+            @if ((i + 1) % 12 == 0 && i + 1 < Model.Newest.Count)
+            {
+               <div class="row g-3">
+                        </div>
+            }
+        }
+    </div>
+</div>
+
+ 
+</section>
+
+<!--============ end product row ==============-->
+<!--============ start product slider ==============-->
+
+<section class="product-slider  site-slider">
+    <div class="container-fluid">
+        <div class="slider-title">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-title">
+                            <h2 class="h3">محصولات <span class="main-color-one-color fw-bold">مراقبت از بدن</span></h2>
+                            <p class="mb-0 mt-2 h6 text-muted">
+                                 محصولات مراقبت از بدن را اینجا میتوانید اینجا
+                                ببینید
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="/Product/BodyCare" class="main-color-one-color font-16"> مشاهده همه <i class="bi bi-caret-left-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper pro-slider">
+            <div class="swiper-wrapper align-items-center">
+                @foreach (var item in Model.catalogs.Where(p=> p.CatalogTypeID==3))
+                {
+                    <div class="swiper-slide">
+
+                        <div class="product-box-item border-ui bg-white">
+
+                            <div class="hover">
+                                <div class="hover-btn">
+                                    <a href="/MyFavourite/AddToMyFavourite?=@item.Id" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="افزودن به علاقه مندی"><i class="bi bi-heart"></i></a>
+                                    <a href="/Product/Details?Slug=@item.Slug" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="نمایش سریع"><i class="bi bi-eye"></i></a>
+                                </div>
+
+                            </div>
+                            <a href="/Product/Details?Slug=@item.Slug">
+                                <div class="image text-center">
+                                    <img src="@item.Image" alt="" class="img-fluid">
+                                </div>
+                                <div class="desc">
+                                    <div class="title">
+                                        <h6 class="title-fa def-color fw-bold text-overflow-2">
+                                            @item.Name
+                                        </h6>
+                                    </div>
+                                    <div class="foot d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <div class="add" data-hint="افزودن به سبد خرید">
+                                                <form action="/Basket/Index" method="post" style="display: inline;">
+                                                    <input type="hidden" name="CatalogitemId" value="@item.Id" />
+                                                    <input type="hidden" name="quantity" value="1" />
+                                                    <button type="submit" style="background: none; border: none; padding: 0;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
+                                                        </svg>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <a href="/Product/Details?Slug=@item.Slug">
+                                            <div class="price d-flex flex-column justify-content-end">
+                                                <div>
+                                                    <span class="fw-bold font-18 def-color">@item.Price</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                }
+            </div>
+        </div>
+
+        <div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+<!--============ end product slider ==============-->
+@* <!--============ start section blog slider ==============-->
+
+<section class="blog-slider py-20">
+    <div class="container-fluid">
+        <div class="slider-title">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="slider-title-desc">
+                        <div class="slider-title-title">
+                            <h2 class="h3">آخرین مطالب <span class="main-color-one-color fw-bold">وبلاگ</span></h2>
+                            <p class="mb-0 mt-2 h6 text-muted">آخرین مطالب وبلاگ را اینجا میتوانید ببینید</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="slider-title-link">
+                        <a href="" class="main-color-one-color font-16"> مشاهده همه <i class="bi bi-caret-left-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-slider-items mt-3">
+            <div class="swiper blog-slider-sw">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="blog-slider-item-stand border-ui">
+                            <a href="">
+                                <span class="blog-slider-overlay"></span>
+                                <div class="blog-slider-item-stand-image">
+                                    <img src="assets/image/blog/blog-1.jpg" alt="">
+                                </div>
+                                <div class="blog-slider-item-stand-text">
+                                    <div class="blog-slider-item-stand-title">
+                                        <span class="badge badge-pill main-color-two-bg mb-2">جدید ترین ها</span>
+                                        <h6 class="font-16 title-font text-overflow-1">راهنمای خرید موبایل آبان 1402</h6>
+                                        <div class="blog-slider-item-info d-flex align-items-center justify-content-between">
+                                            <div class="blog-slider-item-info-item me-2">
+                                                <i class="bi bi-clock me-1"></i>
+                                                <span>2 روز پیش نوشته شده</span>
+                                            </div>
+                                            <div class="blog-slider-item-info-item">
+                                                <i class="bi bi-eye me-1"></i>
+                                                <span>17 بازدید</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-slider-item-stand border-ui">
+                            <a href="">
+                                <span class="blog-slider-overlay"></span>
+                                <div class="blog-slider-item-stand-image">
+                                    <img src="assets/image/blog/blog-2.jpg" alt="">
+                                </div>
+                                <div class="blog-slider-item-stand-text">
+                                    <div class="blog-slider-item-stand-title">
+                                        <span class="badge badge-pill main-color-two-bg mb-2">جدید ترین ها</span>
+                                        <h6 class="font-16 title-font text-overflow-1">راهنمای خرید موبایل آبان 1402</h6>
+                                        <div class="blog-slider-item-info d-flex align-items-center justify-content-between">
+                                            <div class="blog-slider-item-info-item me-2">
+                                                <i class="bi bi-clock me-1"></i>
+                                                <span>2 روز پیش نوشته شده</span>
+                                            </div>
+                                            <div class="blog-slider-item-info-item">
+                                                <i class="bi bi-eye me-1"></i>
+                                                <span>17 بازدید</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-slider-item-stand border-ui">
+                            <a href="">
+                                <span class="blog-slider-overlay"></span>
+                                <div class="blog-slider-item-stand-image">
+                                    <img src="assets/image/blog/blog-3.jpg" alt="">
+                                </div>
+                                <div class="blog-slider-item-stand-text">
+                                    <div class="blog-slider-item-stand-title">
+                                        <span class="badge badge-pill main-color-two-bg mb-2">جدید ترین ها</span>
+                                        <h6 class="font-16 title-font text-overflow-1">راهنمای خرید موبایل آبان 1402</h6>
+                                        <div class="blog-slider-item-info d-flex align-items-center justify-content-between">
+                                            <div class="blog-slider-item-info-item me-2">
+                                                <i class="bi bi-clock me-1"></i>
+                                                <span>2 روز پیش نوشته شده</span>
+                                            </div>
+                                            <div class="blog-slider-item-info-item">
+                                                <i class="bi bi-eye me-1"></i>
+                                                <span>17 بازدید</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-slider-item-stand border-ui">
+                            <a href="">
+                                <span class="blog-slider-overlay"></span>
+                                <div class="blog-slider-item-stand-image">
+                                    <img src="assets/image/blog/blog-4.jpg" alt="">
+                                </div>
+                                <div class="blog-slider-item-stand-text">
+                                    <div class="blog-slider-item-stand-title">
+                                        <span class="badge badge-pill main-color-two-bg mb-2">جدید ترین ها</span>
+                                        <h6 class="font-16 title-font text-overflow-1">راهنمای خرید موبایل آبان 1402</h6>
+                                        <div class="blog-slider-item-info d-flex align-items-center justify-content-between">
+                                            <div class="blog-slider-item-info-item me-2">
+                                                <i class="bi bi-clock me-1"></i>
+                                                <span>2 روز پیش نوشته شده</span>
+                                            </div>
+                                            <div class="blog-slider-item-info-item">
+                                                <i class="bi bi-eye me-1"></i>
+                                                <span>17 بازدید</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-slider-item-stand border-ui">
+                            <a href="">
+                                <span class="blog-slider-overlay"></span>
+                                <div class="blog-slider-item-stand-image">
+                                    <img src="assets/image/blog/blog-5.jpg" alt="">
+                                </div>
+                                <div class="blog-slider-item-stand-text">
+                                    <div class="blog-slider-item-stand-title">
+                                        <span class="badge badge-pill main-color-two-bg mb-2">جدید ترین ها</span>
+                                        <h6 class="font-16 title-font text-overflow-1">راهنمای خرید موبایل آبان 1402</h6>
+                                        <div class="blog-slider-item-info d-flex align-items-center justify-content-between">
+                                            <div class="blog-slider-item-info-item me-2">
+                                                <i class="bi bi-clock me-1"></i>
+                                                <span>2 روز پیش نوشته شده</span>
+                                            </div>
+                                            <div class="blog-slider-item-info-item">
+                                                <i class="bi bi-eye me-1"></i>
+                                                <span>17 بازدید</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-slider-item-stand border-ui">
+                            <a href="">
+                                <span class="blog-slider-overlay"></span>
+                                <div class="blog-slider-item-stand-image">
+                                    <img src="assets/image/blog/blog-6.jpg" alt="">
+                                </div>
+                                <div class="blog-slider-item-stand-text">
+                                    <div class="blog-slider-item-stand-title">
+                                        <span class="badge badge-pill main-color-two-bg mb-2">جدید ترین ها</span>
+                                        <h6 class="font-16 title-font text-overflow-1">راهنمای خرید موبایل آبان 1402</h6>
+                                        <div class="blog-slider-item-info d-flex align-items-center justify-content-between">
+                                            <div class="blog-slider-item-info-item me-2">
+                                                <i class="bi bi-clock me-1"></i>
+                                                <span>2 روز پیش نوشته شده</span>
+                                            </div>
+                                            <div class="blog-slider-item-info-item">
+                                                <i class="bi bi-eye me-1"></i>
+                                                <span>17 بازدید</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--============ end section blog slider ==============--> *@
+
+<!--============ start cart drawer ==============-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* //////////////////////////////////////////////////////// *@
+
+
+ 

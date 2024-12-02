@@ -1,0 +1,333 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Statics.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Statics.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\06dbe7d7-e10f-4868-8f6c-751edea76627Instagram post - 1 (2).jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\06dbe7d7-e10f-4868-8f6c-751edea76627Instagram post - 1 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\0f478535-7745-4830-8b06-83ee043db488download (3).jfif",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\0f478535-7745-4830-8b06-83ee043db488download (3).jfif"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\18ed9aea-019d-4bcc-91aa-face69b958edphoto_2024-09-17_16-16-01.jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\18ed9aea-019d-4bcc-91aa-face69b958edphoto_2024-09-17_16-16-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\19487eca-a9a1-4957-8d6e-d145fe462128f3ed08f0-9928-43e3-8486-1645d1675d61.jfif",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\19487eca-a9a1-4957-8d6e-d145fe462128f3ed08f0-9928-43e3-8486-1645d1675d61.jfif"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\326ff531-6579-4580-95ba-7bb0a6f0127dphoto_1_2024-09-18_22-00-01.jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\326ff531-6579-4580-95ba-7bb0a6f0127dphoto_1_2024-09-18_22-00-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\405d2424-c4c0-4ac8-a123-a3e7b709bfeaInstagram post - 1 (1).jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\405d2424-c4c0-4ac8-a123-a3e7b709bfeaInstagram post - 1 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\4d6a7ca4-0a84-4bab-9540-d782406a972ddownload (4).jfif",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\4d6a7ca4-0a84-4bab-9540-d782406a972ddownload (4).jfif"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\5769fbe1-e6be-4130-866a-49e58e1d8e01photo_3_2024-09-18_22-00-01.jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\5769fbe1-e6be-4130-866a-49e58e1d8e01photo_3_2024-09-18_22-00-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\779e20b6-2e0e-467a-8de4-036a57da092cphoto_2_2024-09-18_22-00-01.jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\779e20b6-2e0e-467a-8de4-036a57da092cphoto_2_2024-09-18_22-00-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\7d1e5a86-cf5f-4345-8f83-0e7e1f14c92dInstagram post - 1 (2).jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\7d1e5a86-cf5f-4345-8f83-0e7e1f14c92dInstagram post - 1 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\8fa6fe99-a7b8-40bf-927f-bbe42c630416Instagram post - 1 (2).jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\8fa6fe99-a7b8-40bf-927f-bbe42c630416Instagram post - 1 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\b8aab900-d242-4098-bdce-f08b8146e23bphoto_1_2024-09-18_22-00-01.jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\b8aab900-d242-4098-bdce-f08b8146e23bphoto_1_2024-09-18_22-00-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\dae4fc82-46a0-46f8-9974-73fc0554438bInstagram post - 1 (6).jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\dae4fc82-46a0-46f8-9974-73fc0554438bInstagram post - 1 (6).jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\e052f3a3-82a6-45c3-98fc-9a3a9dcf45e2Instagram post - 1 (6).jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\e052f3a3-82a6-45c3-98fc-9a3a9dcf45e2Instagram post - 1 (6).jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\e533487c-23d0-4df7-bb68-a1872bd2a1e9Instagram post - 1 (2).jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\e533487c-23d0-4df7-bb68-a1872bd2a1e9Instagram post - 1 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\effde131-3914-46c0-8408-03c69c470ba5images (7).jfif",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\effde131-3914-46c0-8408-03c69c470ba5images (7).jfif"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\Resources\\images\\2024\\2024-9\\f704e1b3-e4dc-473b-a8db-b26b767907d1photo_3_2024-09-18_22-00-01.jpg",
+      "PackagePath": "staticwebassets\\Resources\\images\\2024\\2024-9\\f704e1b3-e4dc-473b-a8db-b26b767907d1photo_3_2024-09-18_22-00-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SH.Rayan\\source\\repos\\Styleto.Shop\\Statics\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Statics.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Statics.props",
+      "PackagePath": "build\\Statics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Statics.props",
+      "PackagePath": "buildMultiTargeting\\Statics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Statics.props",
+      "PackagePath": "buildTransitive\\Statics.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

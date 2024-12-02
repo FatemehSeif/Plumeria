@@ -1,0 +1,661 @@
+﻿
+@using Application.Catalogs.CatalogItems.GetCatalogItemPLP;
+@using Application.Dtos;
+@model PaginatedItemsDto<CatalogPLPDto>
+@{
+    ViewData["Title"] = "لیست محصولات";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int totalAvailableStock = Model.Data.Count();
+    // Assuming Model.Data is a collection of some objects that have a CatalogTypeID property
+    int itemCat2 = Model.Data.Where(p => p.CatalogTypeID == 2).Count();
+    int itemCat3 = Model.Data.Where(p => p.CatalogTypeID == 3).Count();
+    int itemCat4 = Model.Data.Where(p => p.CatalogTypeID == 4).Count();
+    int itemCat5 = Model.Data.Where(p => p.CatalogTypeID == 5).Count();
+    int itemCat6 = Model.Data.Where(p => p.CatalogTypeID == 6).Count();
+    var itemWithCatalogTypeId7 = Model.Data.FirstOrDefault(p => p.CatalogTypeID == 7);
+    string slug7 = itemWithCatalogTypeId7?.Slug;
+
+    var itemWithCatalogTypeId8 = Model.Data.FirstOrDefault(p => p.CatalogTypeID == 6);
+    string slug8 = itemWithCatalogTypeId7?.Slug;
+
+
+    var itemWithCatalogTypeId9 = Model.Data.FirstOrDefault(p => p.CatalogTypeID == 9);
+    string slug9 = itemWithCatalogTypeId7?.Slug;
+
+    var itemWithCatalogTypeId10 = Model.Data.FirstOrDefault(p => p.CatalogTypeID == 10);
+    string slug10 = itemWithCatalogTypeId7?.Slug;
+
+    var itemWithCatalogTypeId12 = Model.Data.FirstOrDefault(p => p.CatalogTypeID == 12);
+    string slug12 = itemWithCatalogTypeId7?.Slug;
+
+    var itemWithCatalogTypeId13 = Model.Data.FirstOrDefault(p => p.CatalogTypeID == 13);
+    string slug13 = itemWithCatalogTypeId7?.Slug;
+
+
+
+    // var brr1 = Model.Data
+    //      .Where(p => p.brandId.Contains(1)).Count(); 
+
+    // var brr2 = Model.Data
+    // .Where(p => p.brandId.Contains(2)).Count(); 
+
+  
+
+    // var brr3 = Model.Data
+    //        .Where(p => p.brandId.Contains(3)).Count(); 
+
+
+    // var brr4 = Model.Data
+    //        .Where(p => p.brandId.Contains(4)).Count(); 
+
+
+}
+
+<link href="~/theme/assets/plugin/bootstrap-slider/bootstrap-slider.min.css" rel="stylesheet" />
+
+
+<!--============ start bread crumb ==============-->
+
+<section class="bread-crumb">
+    <div class="container-fluid">
+        <nav aria-label="breadcrumb" class="my-lg-0 my-2">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="font-14 text-muted-two" href="/">صفحه اصلی</a> </li>
+              
+                <li class="breadcrumb-item"><a class="font-14 text-muted-two" href="/category/product">محصولات</a></li>
+           @*      <li aria-current="page" class="breadcrumb-item active main-color-one-color font-14 fw-bold">
+                
+                </li> *@
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!--============ end bread crumb ==============-->
+<!--============ start section top category ==============-->
+
+
+<section class="main-category py-20">
+    <div class="container-fluid">
+        <div class="parent">
+            <div class="row justify-content-center">
+                <div class="main-category-title">
+                    <div class="slider-title">
+                        <div class="slider-title-desc">
+                            <div class="slider-title-title mb-4">
+                                <h2 class="h3"> دسته بندی های <span class="main-color-one-color title-font"> مرتبط</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6 mb-3">
+                    
+                    <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                       
+                            <input type="hidden" name="categoryId" value="6">
+                            <input type="hidden" name="Slug" value="@slug7">
+                        <input type="hidden" name="CatalogTypeID" value="7">
+                            <a href="#" onclick="this.closest('form').submit(); return false;">
+                                <div class="item">
+                                    <div class="image">
+                                    <img src="~/theme/assets/image/categories/pan-photoroom.png" class="img-fluid" />
+                                    
+                                    </div>
+                                    <div class="title mt-2">
+                                        <h6 class="font-14">پن</h6>
+                                    </div>
+                                    <div class="hover">
+                                    <span class="badge rounded-pill bg-dark font-14">@Model.Data.Where(p => p.CatalogTypeID == 7).Count()</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </form>
+                        </div>
+
+
+                <div class="col-lg-2 col-sm-4 col-6 mb-3">
+                    <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                        <a href="#" onclick="this.closest('form').submit(); return false;">
+
+                            <input type="hidden" name="categoryId" value="8">
+                            <input type="hidden" name="Slug" value="@slug8">
+                    
+
+                            <div class="item">
+                                <div class="image">
+                                    <img src="~/theme/assets/image/categories/soap-photoroom.png" class="img-fluid" />
+                                    </div>
+                                <div class="title mt-2">
+                                    <h6 class="font-14">صابون</h6>
+                                </div>
+                                <div class="hover">
+                                    <span class="badge rounded-pill bg-dark font-14">@Model.Data.Where(p => p.CatalogTypeID == 8).Count()</span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </form>
+                </div>
+
+
+
+                <div class="col-lg-2 col-sm-4 col-6 mb-3">
+                    <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                        <a href="#" onclick="this.closest('form').submit(); return false;">
+
+                            <input type="hidden" name="categoryId" value="9">
+                            <input type="hidden" name="Slug" value="@slug9">
+                        
+                            <div class="item">
+                                <div class="image">
+                                    <img src="~/theme/assets/image/categories/cream-photoroom.png" class="img-fluid" />
+                                   
+                                </div>
+                                <div class="title mt-2">
+                                    <h6 class="font-14">کرم</h6>
+                                </div>
+                                <div class="hover">
+                                    <span class="badge rounded-pill bg-dark font-14">@Model.Data.Where(p => p.CatalogTypeID == 9).Count()</span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </form>
+                </div>
+
+
+                <div class="col-lg-2 col-sm-4 col-6 mb-3">
+                    <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                        <a href="#" onclick="this.closest('form').submit(); return false;">
+
+                            <input type="hidden" name="categoryId" value="10">
+                            <input type="hidden" name="Slug" value="@slug10">
+                           
+
+                            <div class="item">
+                                <div class="image">
+                                    <img src="~/theme/assets/image/categories/lipbalm-photoroom.png" class="img-fluid" />
+                               
+
+                                </div>
+                                <div class="title mt-2">
+                                    <h6 class="font-14">بالم</h6>
+                                </div>
+                                <div class="hover">
+                                    <span class="badge rounded-pill bg-dark font-14">@Model.Data.Where(p => p.CatalogTypeID == 10).Count()</span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </form>
+                </div>
+
+                <div class="col-lg-2 col-sm-4 col-6 mb-3">
+                    <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                        <a href="#" onclick="this.closest('form').submit(); return false;">
+
+                            <input type="hidden" name="categoryId" value="12">
+                            <input type="hidden" name="Slug" value="@slug12">
+                          
+
+                            <div class="item">
+                                <div class="image">
+                                    <img src="~/theme/assets/image/categories/facemask-photoroom.png" class="img-fluid" />
+                    
+                                </div>
+                                <div class="title mt-2">
+                                    <h6 class="font-14">ماسک صورت</h6>
+                                </div>
+                                <div class="hover">
+                                    <span class="badge rounded-pill bg-dark font-14">@Model.Data.Where(p => p.CatalogTypeID == 12).Count()</span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </form>
+                </div>
+
+
+                <div class="col-lg-2 col-sm-4 col-6 mb-3">
+                    <form asp-controller="Product" asp-action="FilterByCategory" method="get">
+                        <a href="#" onclick="this.closest('form').submit(); return false;">
+
+                            <input type="hidden" name="categoryId" value="13">
+                            <input type="hidden" name="Slug" value="@slug13">
+                          
+                            <div class="item">
+                                <div class="image">
+                                    <img src="~/theme/assets/image/categories/eyeera-photoroom.png" class="img-fluid" />
+                                   
+
+                                </div>
+                                <div class="title mt-2">
+                                    <h6 class="font-14">ناحیه چشم</h6>
+                                </div>
+                                <div class="hover">
+                                    <span class="badge rounded-pill bg-dark font-14">@Model.Data.Where(p => p.CatalogTypeID == 13).Count()</span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </form>
+                </div>
+
+
+              
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--============ end section top category ==============-->
+
+
+<!--============ start main content ==============-->
+
+<main class="category-page">
+    <div class="container-fluid">
+        <div class="content">
+            <!-- start filter in mobile -->
+            <div class="custom-filter d-lg-none d-block">
+                <button class="btn btn-filter-float border-0 btn-dark shadow-box px-3 rounded-3 position-fixed"
+                        style="z-index: 999;bottom:75px;" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-funnel font-20 fw-bold text-white"></i>
+                    <span class="d-block font-14 text-white">فیلتر</span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight"
+                     aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel1">فیلتر ها</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                 
+                    <div class="offcanvas-body">
+                        <div class="item-boxs position-sticky top-0">
+                            <div class="item-box item-box-color">
+                                <div class="title">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h6 class="font-14">فیلتر براساس دسته</h6>
+                                        <a class="btn border-0" data-bs-toggle="collapse" href="#collapseItemBoxExist1"
+                                           role="button" aria-expanded="false">
+                                            <i class="bi bi-chevron-down"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="desc collapse show" id="collapseItemBoxExist1">
+                        <div class="filter-item-content">
+                           <form asp-action="Index" method="get">
+                                    @foreach (var item in Model.Data)
+                                    {
+                                        switch (item.CatalogTypeID)
+                                        {
+                                            case 2:
+                                            <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                <div class="form-check">
+                                                    <label for="colorCheck_@item.CatalogTypeID" class="form-check-label">مراقبت از مو
+                                                    <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck_@item.CatalogTypeID" class="form-check-input" onclick="submit();">
+                                                </div>
+                                                <div>
+                                                    <span class="fw-bold font-14">(@itemCat2)</span>
+                                                </div>
+                                            </div>
+                                                break;
+                                            case 3:
+                                            <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                <div class="form-check">
+                                                    <label for="colorCheck_@item.CatalogTypeID" class="form-check-label">مراقبت از بدن
+                                                    <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck_@item.CatalogTypeID" class="form-check-input" onclick="submit();">
+                                                </div>
+                                                <div>
+                                                    <span class="fw-bold font-14">(@itemCat3)</span>
+                                                </div>
+                                            </div>
+                                                break;
+                                            case 4:
+                                            <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                <div class="form-check">
+                                                    <label for="colorCheck_@item.CatalogTypeID" class="form-check-label">عطر و آرایشی
+                                                    <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck_@item.CatalogTypeID" class="form-check-input" onclick="submit();">
+                                                </div>
+                                                <div>
+                                                    <span class="fw-bold font-14">(@itemCat4)</span>
+                                                </div>
+                                            </div>
+                                                break;
+                                            case 5:
+                                            <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                <div class="form-check">
+                                                    <label for="colorCheck_@item.CatalogTypeID" class="form-check-label">مراقبت از دهان و دندان
+                                                    <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck_@item.CatalogTypeID" class="form-check-input" onclick="submit();">
+                                                </div>
+                                                <div>
+                                                    <span class="fw-bold font-14">(@itemCat5)</span>
+                                                </div>
+                                            </div>
+                                                break;
+                                            case 6:
+                                            <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                <div class="form-check">
+                                                    <label for="colorCheck_@item.CatalogTypeID" class="form-check-label">مراقبت از پوست
+                                                                    <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck_@item.CatalogTypeID" class="form-check-input" onclick="submit();">
+                                                </div>
+                                                <div>
+                                                    <span class="fw-bold font-14">(@itemCat6)</span>
+                                                </div>
+                                            </div>
+                                                break;
+                                            default:
+                                                // Handle any other cases if necessary
+                                                break;
+                                        }
+                                    }
+                            </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+            <!-- end filter mobile -->
+            <div class="row gy-4">
+                <div class="col-lg-3 d-lg-block d-none">
+                    <div class="item-boxs position-sticky top-0">
+                       
+                        @* <div class="item-box">
+                            <div class="title">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h6 class="font-14">محدوده قیمت</h6>
+                                    <a class="btn border-0" data-bs-toggle="collapse" href="#collapsePrice"
+                                       role="button" aria-expanded="false">
+                                        <i class="bi bi-chevron-down"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="desc collapse show" id="collapsePrice">
+                                <div class="filter-item-content">
+                                    <form asp-action="Index" method="get">
+                                        <div class="form-group">
+                                            <label>
+                                                <input type="range" class="catRange" name="range[]">
+                                            </label>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <label>
+                                                    <input type="number" name="minPrice" id="minPrice" min="50.000"
+                                                           class="form-control input-range-filter"
+                                                           placeholder="از 50.000">
+                                                </label>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>
+                                                    <input type="number" name="maxPrice" id="maxPrice" min="50.000" max="4.000.000"
+                                                           class="form-control input-range-filter"
+                                                           placeholder="از4.000.000">
+                                                </label>
+                                            </div>
+                                            <div class="col-12">
+                                              
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div> *@
+
+                        <!-- Category Filter -->
+                        @await Component.InvokeAsync("BrandFilter")
+
+                      
+                        <div class="item-box">
+                            <div class="title">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h6 class="font-14">فیلتر براساس دسته</h6>
+                                    <a class="btn border-0" data-bs-toggle="collapse" href="#collapseItemBoxExist" role="button" aria-expanded="false">
+                                        <i class="bi bi-chevron-down"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="desc collapse show" id="collapseItemBoxExist">
+                                <div class="filter-item-content">
+                                    <form asp-action="Index" method="get">
+                                        @foreach (var item in Model.Data)
+                                        {
+                                             switch (item.CatalogTypeID)
+                                            {
+
+                                                case 2:
+                                                    <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck" class="form-check-input" onclick="submit();">
+                                                            <label for="colorCheck" class="form-check-label">مراقبت از مو</label>
+                                                        </div>
+                                                        <div>
+                                                            <span class="fw-bold font-14">(@itemCat2)</span>
+                                                        </div>
+                                                    </div>
+                                                    break;
+                                                case 3:
+                                                    <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck_@item.CatalogTypeID" class="form-check-input" onclick="submit();">
+                                                            <label for="colorCheck" class="form-check-label">مراقبت از بدن</label>
+                                                        </div>
+                                                        <div>
+                                                            <span class="fw-bold font-14">(@itemCat3)</span>
+                                                        </div>
+                                                    </div>
+                                                    break;
+                                                case 4:
+                                                    <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck_@item.CatalogTypeID" class="form-check-input" onclick="submit();">
+                                                            <label for="colorCheck" class="form-check-label">عطر و آرایشی</label>
+                                                        </div>
+                                                        <div>
+                                                            <span class="fw-bold font-14">(@itemCat4)</span>
+                                                        </div>
+                                                    </div>
+                                                    break;
+                                                case 5:
+                                                    <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck" class="form-check-input" onclick="submit();">
+                                                            <label for="colorCheck" class="form-check-label">مراقبت از دهان و دندان</label>
+                                                        </div>
+                                                        <div>
+                                                            <span class="fw-bold font-14">(@itemCat5)</span>
+                                                        </div>
+                                                    </div>
+                                                    break;
+
+                                                case 6:
+                                                    <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" value="@item.CatalogTypeID.Value" name="catalogTypeId" id="colorCheck11" class="form-check-input" onclick="submit();">
+                                                            <label for="colorCheck" class="form-check-label">مراقبت از پوست</label>
+                                                        </div>
+                                                        <div>
+                                                            <span class="fw-bold font-14">(@itemCat6)</span>
+                                                        </div>
+                                                    </div>
+                                                    break;
+
+                                                default:
+                                                    // Handle any other cases if necessary
+                                                    break;
+                                            }
+                                          
+                                        }
+                                      
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="filter-items shadow-box mb-4 bg-white p-4 rounded-4">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-md-4">
+                                <div class="filter-item">
+                                    <div class="header-form">
+                                        <form asp-action="Index" method="get">
+                                            <label>
+                                                <input type="search" class="form-control input-search" placeholder="جستجوی محصول">
+                                            </label>
+                                            <button type="submit" class="btn input-btn-search"><i class="bi bi-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+               
+                            <div class="col-md-4">
+                                <div class="filter-item">
+                                    <div class="filter-item-select">
+                                    <form asp-action="Index" method="get">
+                                        <div>
+                                            <div class="row align-items-center">
+                                                <div class="col-5">
+                                                    <h6>نمایش بر اساس:</h6>
+                                                </div>
+                                                <div class="col-7">
+                                                    <label for="sortType"></label>
+                                                    <select name="sorttype" id="sortType" class="form-select" onchange="this.form.submit()">
+                                                        <option value="1">پربازدیدترین</option>
+                                                        <option value="2">پرفروش‌ترین</option>
+                                                        <option value="3">محبوب‌ترین</option>
+                                                        <option value="4">جدیدترین</option>
+                                                        <option value="5">ارزان‌ترین</option>
+                                                        <option value="6">گران‌ترین</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="filter-label">
+                                    
+                                       
+                                    <p class="text-muted text-end mb-0"> نمایش  کالا از @totalAvailableStock کالای موجود</p>
+                                    
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="row g-4">
+                                @foreach (var item in Model.Data)
+                                {
+                                    
+                                    <div class="col-lg-4 col-sm-6">
+                                       
+                                        <div class="product-box-item border-ui bg-white w-100">
+                                      
+                                            <div class="hover">
+                                                <div class="hover-btn">
+                                                    <a href="/MyFavourite/AddToMyFavourite?=@item.Id" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="افزودن به علاقه مندی"><i class="bi bi-heart"></i></a>
+                                                    <a href="/Product/Details?Slug=@item.Slug" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="نمایش سریع"><i class="bi bi-eye"></i></a>
+                                                </div>
+                                               
+                                            </div>
+                                            <a href="/Product/Details?Slug=@item.Slug">
+                                            <div class="image text-center">
+                                                <img src="@item.Image" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="desc">
+                                                <div class="title">
+                                                    <h6 class="title-fa def-color fw-bold text-overflow-2">
+                                                        @item.Name
+                                                    </h6>
+                                                </div>
+                                                <div class="foot d-flex justify-content-between align-items-center">
+                                                        <div class="d-flex align-items-center justify-content-center">
+                                                            <div class="add" data-hint="افزودن به سبد خرید">
+                                                                <form action="/Basket/Index" method="post" style="display: inline;">
+                                                                    <input type="hidden" name="CatalogitemId" value="@item.Id" />
+                                                                    <input type="hidden" name="quantity" value="1" />
+                                                                    <button type="submit" style="background: none; border: none; padding: 0;">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                                                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
+                                                                        </svg>
+                                                                    </button>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    <a href="/Product/Details?Slug=@item.Slug">
+                                                    <div class="price d-flex flex-column justify-content-end">
+                                                        <div>
+                                                            <span class="fw-bold font-18 def-color">@item.Price</span>
+                                                        </div>
+                                                    </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            </a>
+                                        </div>
+                                   
+                                    </div>
+                              
+                                }
+
+                            </div>
+
+
+
+</main>
+<div class="col-12 px-0">
+    <div class="pagination">
+        <a href="#" class="prev"><i class="far fa-arrow-from-left"></i></a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#" class="current">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#" class="next"><i class="far fa-arrow-to-left"></i></a>
+    </div>
+
+<!--============ end main content ==============-->
+    <!-- initial bootstrap slider -->
+    <script src="~/theme/assets/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
+ 
+    <script>
+        $(document).ready(function () {
+            ////slider range
+            $(".catRange").slider({
+                id: "slider5b",
+                min: 1500000,
+                max: 3000000,
+                range: true,
+                step: 10000,
+                value: [1500000, 3000000],
+                rtl: 'false',
+                formatter: function formatter(val) {
+                    if (Array.isArray(val)) {
+                        return val[0] + " تومان " + "  تا   " + val[1] + " تومان ";
+                    } else {
+                        return val;
+                    }
+                },
+            });
+        });
+
+    </script>
+  
+    <!-- ==== end range slider -->
+    

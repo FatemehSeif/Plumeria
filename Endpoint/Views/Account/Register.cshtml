@@ -1,0 +1,116 @@
+﻿@model Endpoint.Models.ViewModels.Register.RegisterViewModel
+@{
+    Layout = null;
+}
+@*
+<!DOCTYPE html>
+<html lang="FA-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استایلتو</title>
+    <link href="~/theme/assets/plugin/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="~/theme/assets/plugin/timer/timer.css" rel="stylesheet" />
+    <link href="~/theme/assets/plugin/go-to-top/style.css" rel="stylesheet" />
+    <link href="~/theme/assets/plugin/rasta-contact/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/theme/assets/css/style.css" />
+    <link href="~/theme/assets/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="bg-auth">
+
+    <section class="content vh-100">
+        <div class="container-fluid h-100">
+            <div class="auth h-100 d-flex align-items-center">
+                <div class="container-fluid">
+                    <div class="auth-items">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4">
+                                <div class="auth-logo text-center">
+                                    <div class="top-header-logo">
+                                        <a href="">
+                                            <img src="assets/image/logo.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="auth-form shadow-xl rounded-3 border-ui mt-3 bg-white">
+                                    <div class="auth-form-title mb-4 slider-title-desc-center">
+                                        <h2 class="text-center h4 mt-4 mb-5 text-muted title-font">ثبت نام</h2>
+                                    </div>
+
+                                    @if (TempData["Message"] != null)
+                                    {
+                                        <div class="alert alert-danger">
+                                            <text>@TempData["Message"]</text>
+                                        </div>
+                                    }
+
+                                    <form asp-action="Register" method="post" id="form-auth">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+                                        <div class="comment-item mb-3">
+                                            <input id="fullName" class="form-control" asp-for="FullName" required />
+                                            <label asp-for="FullName" class="form-label label-float">نام و نام خانوادگی خود را وارد کنید</label>
+                                        </div>
+
+                                        <div class="comment-item mb-3">
+                                            <input id="email" class="form-control" asp-for="Email" required />
+                                            <label asp-for="Email" class="form-label label-float">ایمیل خود را وارد کنید</label>
+                                        </div>
+
+                                        <div class="comment-item mb-3">
+                                            <input type="tel" id="phoneNumber" class="form-control" asp-for="PhoneNumber" required />
+                                            <label asp-for="PhoneNumber" class="form-label label-float">شماره تلفن خود را وارد کنید</label>
+                                        </div>
+
+                                        <div class="comment-item mb-3">
+                                            <input type="password" id="password" class="form-control" asp-for="Password" required />
+                                            <label asp-for="Password" class="form-label label-float">رمز عبور</label>
+                                        </div>
+                                        <div class="comment-item mb-3">
+                                            <input type="password" id="password" class="form-control" asp-for="RePassword" required />
+                                            <label asp-for="RePassword" class="form-label label-float">تکرار رمز عبور</label>
+                                        </div>
+                                        <div class="form-group mt-4">
+                                            <button type="submit" class="btn main-color-one-bg w-100 py-2 font-18">ورود / ثبت نام</button>
+                                        </div>
+
+                                    </form>
+
+                                    <p class="loginTermsDesc mt-3">
+                                        با ورود و یا ثبت نام در استایلتو شما <a class="underlined main-color-one-color fw-bold" href="/rules/">شرایط و قوانین</a> استفاده از سرویس‌های سایت استایلتو و <a class="underlined main-color-one-color fw-bold" href="/privacy-polices/">قوانین حریم خصوصی</a> آن را می‌پذیرید.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle-5.3.2.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        const form = document.getElementById('form-auth');
+
+        form.addEventListener('submit', function (e) {
+            // Here we could perform additional client-side validation if needed
+            // But the form will submit to the server as expected
+        });
+    </script>
+
+    <script src="~/theme/assets/js/jquery-3.7.1.min.js"></script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+</body>
+</html> *@

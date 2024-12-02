@@ -1,0 +1,109 @@
+﻿@model Endpoint.Models.ViewModels.User.LoginViewModel
+
+
+@{
+    ViewData["Title"] = "ورود به حساب";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="FA-IR" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استایلتو</title>
+
+    <link href="~/theme/assets/plugin/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="~/theme/assets/plugin/timer/timer.css" rel="stylesheet" />
+    <link href="~/theme/assets/plugin/go-to-top/style.css" rel="stylesheet" />
+    <link href="~/theme/assets/plugin/rasta-contact/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/theme/assets/css/style.css" />
+    <link href="~/theme/assets/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="bg-auth">
+    <section class="content vh-100">
+        <div class="container-fluid h-100">
+            <div class="auth h-100 d-flex align-items-center">
+                <div class="container-fluid">
+                    <div class="auth-items">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4">
+                                <div class="auth-logo text-center">
+                                    <div class="top-header-logo">
+                                        <a href="">
+                                            <img src="assets/image/logo.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="auth-form shadow-xl rounded-3 border-ui mt-3 bg-white">
+                                    <div class="auth-form-title mb-4 slider-title-desc-center">
+                                        <h2 class="text-center h4 mt-4 mb-5 text-muted title-font">ورود / ثبت نام</h2>
+                                    </div>
+                                    <form asp-action="Login" method="post" id="form-auth">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                        <!-- ورودی شماره موبایل -->
+                                        <div class="comment-item mb-3 step-username">
+                                            <input type="text" asp-for="PhoneNumber" class="form-control" id="username" placeholder="شماره موبایل خود را وارد کنید" required>
+                                            <label for="username" class="form-label label-float">شماره موبایل خود را وارد کنید</label>
+                                        </div>
+
+                                       
+                                        <div class="form-group step-one mt-4">
+                                            <button type="submit" class="btn main-color-one-bg w-100 py-2 font-18">ورود / ثبت نام</button>
+                                        </div>
+                                        <input type="hidden" asp-for="ReturnUrl" class="form-control" />
+                                    </form>
+                                  
+
+                                  
+
+                                    <p class="loginTermsDesc mt-3">
+                                        با ورود و یا ثبت نام در استایلتو شما <a class="underlined main-color-one-color fw-bold" href="/rules/">شرایط و قوانین</a> استفاده از سرویس‌های سایت استایلتو و <a class="underlined main-color-one-color fw-bold" href="/privacy-polices/">قوانین حریم خصوصی</a> آن را می‌پذیرید.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="~/Theme/assets/js/modernizr-3.11.2.min.js"></script>
+    <script src="~/Theme/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="~/Theme/assets/js/bootstrap.bundle-5.3.2.min.js"></script>
+    <script src="~/Theme/assets/js/app.js"></script>
+
+    @section Scripts {
+        <script>
+            const stepOneButton = document.querySelector('.step-one button');
+            const userName = document.querySelector('#username');
+
+            // تایید شماره موبایل و حرکت به مرحله ورود پسورد
+            stepOneButton.addEventListener('click', function (e) {
+                if (userName.value === "") {
+                    e.preventDefault();
+                    userName.classList.add('border-danger');
+                    showError("لطفا شماره موبایل خود را وارد کنید");
+                } else {
+                    document.querySelector('.step-username').classList.add('d-none');
+                    document.querySelector('.step-passwd').classList.remove('d-none');
+                }
+            });
+
+            function showError(message) {
+                let errorLabel = document.getElementById('errLabel');
+                if (!errorLabel) {
+                    errorLabel = document.createElement('span');
+                    errorLabel.setAttribute('id', 'errLabel');
+                    errorLabel.classList.add('text-danger');
+                    document.querySelector('.step-username').appendChild(errorLabel);
+                }
+                errorLabel.innerHTML = message;
+            }
+        </script>
+    } 
+</body>
